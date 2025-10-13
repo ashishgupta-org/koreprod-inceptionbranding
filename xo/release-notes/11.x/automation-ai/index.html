@@ -20754,13 +20754,13 @@
 <p>This update includes enhancements and bug fixes. The key enhancement included in this release is summarized below.</p>
 <p><font size="4">Agent Transfer</font>  </p>
 <p><strong>Salesforce MIAW Agent Integration Enhancements</strong>   </p>
-<p>AI for Service now offers enhanced Salesforce MIAW integration, providing uninterrupted customer chat sessions even during agent transfers and conferences. Sessions remain active as long as either an agent or the customer is engaged, with the platform respecting Salesforce SSE events for transfers and conferencing. This improvement includes real-time system messages for end-users, clearly indicating when a transfer starts, a new agent joins, or an agent leaves a conference, thereby increasing transparency and ensuring a consistent, seamless support experience. <a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/#internal-agent-transfer-and-conference-handling">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>AI for Service now offers enhanced Salesforce MIAW integration, providing uninterrupted customer chat sessions even during agent transfers and conferences. Sessions remain active as long as either an agent or the customer is engaged, with the platform respecting Salesforce SSE events for transfers and conferencing. This improvement includes real-time system messages for end-users, clearly indicating when a transfer starts, a new agent joins, or an agent leaves a conference, thereby increasing transparency and ensuring a consistent, seamless support experience. <a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/#internal-agent-transfer-and-conference-handling">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Service Node</font>  </p>
 <p><strong>New Option to Disable SSL Certificate Validation for API Calls</strong> </p>
-<p>The new Client Certificate Authentication option in the AI Agent allows platform users to define whether client certificate validation is required for individual Service Nodes. This option is enabled by default to ensure enhanced security against unauthorized access while maintaining compatibility with existing configurations. For users using custom API calls that require authentication methods beyond the platform's standard SSL client-certificate validation (such as OAuth-type authorization profiles), this feature allows them to disable certificate validation and implement their own custom authentication mechanisms. <a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#configure-the-node">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The new Client Certificate Authentication option in the AI Agent allows platform users to define whether client certificate validation is required for individual Service Nodes. This option is enabled by default to ensure enhanced security against unauthorized access while maintaining compatibility with existing configurations. For users using custom API calls that require authentication methods beyond the platform's standard SSL client-certificate validation (such as OAuth-type authorization profiles), this feature allows them to disable certificate validation and implement their own custom authentication mechanisms. <a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#configure-the-node">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">NLP</font>  </p>
 <p><strong>Detailed Insights into Batch Testing Failure Reasons</strong>   </p>
-<p>Batch testing results now offer improved clarity regarding why an expected intent failed to qualify as the matched intent by showing the Elimination Reason for the failed intent. Results clearly indicate whether the failure was due to the model or eliminated by the Ranking &amp; Resolver (R&amp;R) engine, enabling users to troubleshoot more efficiently and improve model training and policy tuning. <a href="../../../automation/testing/regression-testing/batch-testing/#view-test-case-details">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Batch testing results now offer improved clarity regarding why an expected intent failed to qualify as the matched intent by showing the Elimination Reason for the failed intent. Results clearly indicate whether the failure was due to the model or eliminated by the Ranking &amp; Resolver (R&amp;R) engine, enabling users to troubleshoot more efficiently and improve model training and policy tuning. <a href="../../../automation/testing/regression-testing/batch-testing/#view-test-case-details">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11170-august-23-2025">v11.17.0 August 23, 2025<a class="headerlink" href="#v11170-august-23-2025" title="Permanent link">¶</a></h2>
@@ -20768,7 +20768,7 @@
 <p>This update includes enhancements and bug fixes. The key enhancements included in this release are summarized below.</p>
 <p><font size="4">API</font>  </p>
 <p><strong>Call ID Support in the getMessage API for AudioCodes and SAVG</strong>   </p>
-<p>To improve access to app-user conversation history for voice interactions, the getMessage API now accepts callId as an optional query parameter for AudioCodes and SAVG. It aims to reduce latency and infrastructure load for high-volume customers who retrieve conversational data for analysis and auditing. <a href="../../../apis/automation/conversation-history/#sample-request">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>To improve access to app-user conversation history for voice interactions, the getMessage API now accepts callId as an optional query parameter for AudioCodes and SAVG. It aims to reduce latency and infrastructure load for high-volume customers who retrieve conversational data for analysis and auditing. <a href="../../../apis/automation/conversation-history/#sample-request">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11161-august-11-2025">v11.16.1 August 11, 2025<a class="headerlink" href="#v11161-august-11-2025" title="Permanent link">¶</a></h2>
@@ -20776,12 +20776,12 @@
 <p>This update includes enhancements and bug fixes. The key enhancement included in this release is summarized below.</p>
 <p><font size="4">Agent Node</font></p>
 <p><strong>Enhanced Agent Node Configuration for Streamlined Input Handling</strong></p>
-<p>Agent Node configuration is streamlined by replacing ‘retries’ with ‘number of iterations’ in Instance Properties and removing the Initial and Error Prompts sections from the IVR Properties, as the models will dynamically manage prompting across voice channels. <a href="../../../automation/agent-node/working-with-agent-node/#instance-properties">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Agent Node configuration is streamlined by replacing ‘retries’ with ‘number of iterations’ in Instance Properties and removing the Initial and Error Prompts sections from the IVR Properties, as the models will dynamically manage prompting across voice channels. <a href="../../../automation/agent-node/working-with-agent-node/#instance-properties">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>IVR Property Support for LLM Streaming in Agent Node</strong></p>
-<p>Agent nodes with LLM streaming now honor configured IVR properties (timeout, prompts, barge-in, grammar, retries, call control, and recording) instead of using a hardcoded 60-second timeout. Node-level settings take precedence over global configurations, providing precise control of voice interactions without affecting non-LLM nodes. <a href="../../../automation/agent-node/working-with-agent-node/#ivr-properties">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Agent nodes with LLM streaming now honor configured IVR properties (timeout, prompts, barge-in, grammar, retries, call control, and recording) instead of using a hardcoded 60-second timeout. Node-level settings take precedence over global configurations, providing precise control of voice interactions without affecting non-LLM nodes. <a href="../../../automation/agent-node/working-with-agent-node/#ivr-properties">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">NLP</font></p>
 <p><strong>Batch Testing now supports Zero-Shot Model Feature</strong></p>
-<p>The Platform now supports the Zero-Shot Model feature with the existing NLP-based Batch Testing. This enhancement allows you to validate utterance predictions even when the bot is not explicitly trained on those utterances, enabling more flexible evaluation of LLM-based bots. <a href="../../../automation/testing/regression-testing/batch-testing/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The Platform now supports the Zero-Shot Model feature with the existing NLP-based Batch Testing. This enhancement allows you to validate utterance predictions even when the bot is not explicitly trained on those utterances, enabling more flexible evaluation of LLM-based bots. <a href="../../../automation/testing/regression-testing/batch-testing/">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11160-july-26-2025">v11.16.0 July 26, 2025<a class="headerlink" href="#v11160-july-26-2025" title="Permanent link">¶</a></h2>
@@ -20789,16 +20789,16 @@
 <p>This update includes enhancements and bug fixes. The key enhancements included in this release are summarized below.</p>
 <p><font size="4">DialogGPT</font></p>
 <p><strong>Enhanced DialogGPT Batch Testing Framework</strong> </p>
-<p>The DialogGPT batch testing framework now supports the validation of specific Conversational Intent Types (e.g., Hold, Restart, Refuse, End, Agent Transfer, Repeat) within test cases, enabling direct testing of how AI agents handle key conversational events. This enhancement enhances the test coverage, accuracy, and reliability of AI agent performance across various conversation types <a href="../../../automation/testing/batch-testing-dialoggpt/#validate-specific-conversational-intent-types">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The DialogGPT batch testing framework now supports the validation of specific Conversational Intent Types (e.g., Hold, Restart, Refuse, End, Agent Transfer, Repeat) within test cases, enabling direct testing of how AI agents handle key conversational events. This enhancement enhances the test coverage, accuracy, and reliability of AI agent performance across various conversation types <a href="../../../automation/testing/batch-testing-dialoggpt/#validate-specific-conversational-intent-types">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>User Experience Enhancements in Salesforce MIAW Agent Integration</strong> </p>
-<p>Salesforce MIAW Agent Integration now includes human agent name display, real-time read receipts for both parties, automatic inactivity timeouts, and UI-based management of standard responses and stop words. These enhancements improve the agent experience, streamline session handling, and simplify configuration directly through the interface. <a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/#additional-capabilities">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Salesforce MIAW Agent Integration now includes human agent name display, real-time read receipts for both parties, automatic inactivity timeouts, and UI-based management of standard responses and stop words. These enhancements improve the agent experience, streamline session handling, and simplify configuration directly through the interface. <a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/#additional-capabilities">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Dialog Builder</font></p>
 <p><strong>Entity Reuse Across Dialog Flows</strong> </p>
-<p>A new configurable flag, ‘reuseEntityWords: true’, at the Dynamic Intent Node and Dialog Node levels allows entity values extracted in a parent dialog to be automatically available and reusable in downstream dialogs without re-prompting, improving end-user experience. <a href="../../../automation/use-cases/dialogs/node-types/dynamic-intent-node/#entity-pre-assignments">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>A new configurable flag, ‘reuseEntityWords: true’, at the Dynamic Intent Node and Dialog Node levels allows entity values extracted in a parent dialog to be automatically available and reusable in downstream dialogs without re-prompting, improving end-user experience. <a href="../../../automation/use-cases/dialogs/node-types/dynamic-intent-node/#entity-pre-assignments">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">NLP</font></p>
 <p><strong>Removal of Precondition for Confusion Matrix Generation</strong></p>
-<p>The Confusion Matrix can now be generated without requiring every configured intent to have at least one utterance, removing previous restrictions. This enables more flexible and iterative model evaluation, especially when working with incomplete datasets during early-stage development. <a href="../../../automation/natural-language/training/model-validation/#confusion-matrix">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The Confusion Matrix can now be generated without requiring every configured intent to have at least one utterance, removing previous restrictions. This enables more flexible and iterative model evaluation, especially when working with incomplete datasets during early-stage development. <a href="../../../automation/natural-language/training/model-validation/#confusion-matrix">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11151-july-12-2025">v11.15.1 July 12, 2025<a class="headerlink" href="#v11151-july-12-2025" title="Permanent link">¶</a></h2>
@@ -20806,7 +20806,7 @@
 <p>This update includes enhancement and bug fixes. The key enhancement included in this release is summarized below.</p>
 <p><font size="4">DialogGPT</font></p>
 <p><strong>Sub-Intent Scoping Enhancement</strong></p>
-<p>DialogGPT has been optimised to manage sub-intents using dialog context, moving away from indexing. This change provides a clear separation between top-level intents and sub-intents, thereby improving the accuracy of the intent qualification and also providing developers with greater control. <a href="../../../automation/intelligence/sub-intents-and-follow-up-intents/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>DialogGPT has been optimised to manage sub-intents using dialog context, moving away from indexing. This change provides a clear separation between top-level intents and sub-intents, thereby improving the accuracy of the intent qualification and also providing developers with greater control. <a href="../../../automation/intelligence/sub-intents-and-follow-up-intents/">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11150-june-30-2025">v11.15.0 June 30, 2025<a class="headerlink" href="#v11150-june-30-2025" title="Permanent link">¶</a></h2>
@@ -20814,14 +20814,14 @@
 <p>This update includes enhancements and bug fixes. The key enhancements included in this release are summarized below.</p>
 <p><font size="4">DialogGPT</font></p>
 <p><strong>Configurable Search AI Retrieval Settings</strong></p>
-<p>DialogGPT now allows users to configure chunk limits for Search AI retrieval, enabling them to control the number of chunks retrieved from knowledge sources. This feature improves the response times, contributes to improved intent identification, and optimises token consumption, while providing precise control over the balance between context depth and performance. <a href="../../../generative-ai-tools/dgpt-conversation-orchestration/#model-configurations">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>DialogGPT now allows users to configure chunk limits for Search AI retrieval, enabling them to control the number of chunks retrieved from knowledge sources. This feature improves the response times, contributes to improved intent identification, and optimises token consumption, while providing precise control over the balance between context depth and performance. <a href="../../../generative-ai-tools/dgpt-conversation-orchestration/#model-configurations">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Enhanced Discoverability for Automation Node Settings</strong></p>
-<p>The Automation Node’s routing settings are now also available at Flow &amp; Channels &gt; Automation Routing &gt; Routing Modes for better accessibility and visibility. This streamlined navigation not only enables users to view and configure settings at an Automation Node but also provides a complete view of the different routing modes - Default, DialogGPT, and Agentic App, used across the app. <a href="../../../flows/automation-routing/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The Automation Node’s routing settings are now also available at Flow &amp; Channels &gt; Automation Routing &gt; Routing Modes for better accessibility and visibility. This streamlined navigation not only enables users to view and configure settings at an Automation Node but also provides a complete view of the different routing modes - Default, DialogGPT, and Agentic App, used across the app. <a href="../../../flows/automation-routing/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Batch Testing Now Supports Multi-app Routing</strong></p>
-<p>The Batch Testing feature now supports multi-app routing, enabling users to evaluate conversational flows that span across multiple linked Assistants (apps). This enhancement aligns batch testing with real-world scenarios where conversations are dynamically routed to multiple linked apps. <a href="../../../automation/testing/batch-testing-dialoggpt/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The Batch Testing feature now supports multi-app routing, enabling users to evaluate conversational flows that span across multiple linked Assistants (apps). This enhancement aligns batch testing with real-world scenarios where conversations are dynamically routed to multiple linked apps. <a href="../../../automation/testing/batch-testing-dialoggpt/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Enhancement of Batch Testing Public APIs to support creation and management of test suites</strong></p>
 <p>As part of the ongoing Batch Testing support for DialogGPT, several enhancements are being introduced to the public APIs. These changes ensure compatibility with new test formats, support for Universal Bots (Multi-App Routing), and maintain flexibility to handle both NLP-based and DialogGPT-based applications.
-<a href="../../../apis/automation/batch-test-execution/#sample-request">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../apis/automation/batch-test-execution/#sample-request">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Salesforce MIAW Agent Integration Enhancements</strong></p>
 <p>The Salesforce MIAW Agent Integration now includes features that enhance live support experiences. These enhancements help prepare agents, empower end-users, and maintain consistent brand communication.</p>
@@ -20837,12 +20837,12 @@
 <p>Customizable Standard Responses: Default system messages displayed during handoffs and live chats, including wait times, agent join alerts, and session closure prompts, can now be customized. This ensures a consistent, branded experience aligned with user expectations. </p>
 </li>
 </ul>
-<p><a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/#additional-capabilities">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/#additional-capabilities">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>User-Bot Conversation Summary for Live Agent Transfers</strong></p>
-<p>The Platform now enhances agent transfers by sending a conversation summary of the end-user and bot chat to the live agent during the transfer. This enhancement streamlines agent handoff by presenting a concise, GenAI-generated summary alongside the existing chat history link, eliminating the need for agents to navigate away from the chat window or open new pages to understand the conversation context. <a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#user-bot-chat-conversation-summary-to-live-agents">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The Platform now enhances agent transfers by sending a conversation summary of the end-user and bot chat to the live agent during the transfer. This enhancement streamlines agent handoff by presenting a concise, GenAI-generated summary alongside the existing chat history link, eliminating the need for agents to navigate away from the chat window or open new pages to understand the conversation context. <a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#user-bot-chat-conversation-summary-to-live-agents">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">API</font></p>
 <p><strong>Call ID Support in the getMessage API</strong></p>
-<p>To improve access to bot-user conversation history for voice interactions, the <code>getMessage</code> API now accepts <code>callId</code> as an optional query parameter, in addition to the existing <code>sessionId</code>. It aims to reduce latency and infrastructure load for high-volume customers who retrieve conversational data for analysis and auditing.  <a href="../../../apis/automation/conversation-history/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>To improve access to bot-user conversation history for voice interactions, the <code>getMessage</code> API now accepts <code>callId</code> as an optional query parameter, in addition to the existing <code>sessionId</code>. It aims to reduce latency and infrastructure load for high-volume customers who retrieve conversational data for analysis and auditing.  <a href="../../../apis/automation/conversation-history/">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11141-june-14-2025">v11.14.1 June 14, 2025<a class="headerlink" href="#v11141-june-14-2025" title="Permanent link">¶</a></h2>
@@ -20851,7 +20851,7 @@
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Genesys Agent Integration Supports Attachment Sharing</strong></p>
 <p>Users can now share files with live agents to provide additional context and facilitate more efficient issue resolution. Previously supported only in the ServiceNow integration, this feature is now available in Genesys. Currently, Genesys supports attachment sharing only through the WebSDK channel.</p>
-<p><a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#attachment-sharing-with-live-agent">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#attachment-sharing-with-live-agent">Learn more:octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11140-may-31-2025">v11.14.0 May 31, 2025<a class="headerlink" href="#v11140-may-31-2025" title="Permanent link">¶</a></h2>
@@ -20867,7 +20867,7 @@
 <li>Granular Performance Insights: Measure accuracy, precision, recall, and F1 score across all conversation types, including Dialogs, FAQs, Knowledge, and Conversation Intents.</li>
 <li>Lifecycle Support: Enables batch testing for both in-development and published apps, supporting validation at any stage of the deployment lifecycle.</li>
 </ul>
-<p><a href="../../../automation/testing/batch-testing-dialoggpt/">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/testing/batch-testing-dialoggpt/">Learn more:octicons-arrow-right-24:</a></p>
 <p><strong>Improved App Routing Discoverability</strong></p>
 <p>Automation app linking is now centralized for easier access under <strong>Flow &amp; Channels &gt; Manage Automation</strong>. This unified interface provides a quick view of <strong>Chat</strong> and <strong>Voice</strong> flows, displaying key routing details, including Flow Name, Automation Node, Routing Mode, and Channel. The integrated search bar enables easy filtering of results and efficient management of routing configurations.</p>
 <p><font size="4">LLM &amp; Generative AI</font></p>
@@ -20878,14 +20878,14 @@
 <li>Enhanced Content Support: Processes Standard Responses, Events, FAQs, and JSON/JavaScript templates. It retains the core rephrasing capability with the new Default-V2 prompt framework.</li>
 <li>Granular Control: Configure globally or at the component level (User, Error, Bot Prompts). Select specific response elements (messages, confirmations, entity values) for rephrasing with emotionally intelligent language. </li>
 </ul>
-<p><a href="../../../generative-ai-tools/genai-features-automationai/#rephrase-responses">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../generative-ai-tools/genai-features-automationai/#rephrase-responses">Learn more:octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Genesys WebMessaging Integration for Agent Transfer</strong></p>
-<p>The platform now supports Genesys WebMessaging integration for agent transfer, in addition to the existing WebChat option. While existing users can still use WebChat with their current settings, WebMessaging will be the default for new integrations. As Genesys is retiring WebChat on June 10, 2025, transitioning to WebMessaging is highly recommended for ongoing support and access to the latest features. <a href="../../../app-settings/integrations/agents/configuring-the-genesys-agent/">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The platform now supports Genesys WebMessaging integration for agent transfer, in addition to the existing WebChat option. While existing users can still use WebChat with their current settings, WebMessaging will be the default for new integrations. As Genesys is retiring WebChat on June 10, 2025, transitioning to WebMessaging is highly recommended for ongoing support and access to the latest features. <a href="../../../app-settings/integrations/agents/configuring-the-genesys-agent/">Learn more:octicons-arrow-right-24:</a></p>
 <p><font size="4">Analytics</font></p>
 <p><strong>Node-level Control to Classify Conversations as Self-serve / Drop-off</strong></p>
 <p>To improve the accuracy of containment metrics in Analytics, users can now manage how conversations are categorized at the node level. A "Containment Type" option has been introduced within the Instance Properties of Entity, Confirmation, Message, and Agent Nodes. This new setting allows direct classification of conversations as ‘Self-Serve’ or ‘Drop-Off’ in Instance Properties, ensuring accurate exit tracking at optional stages and more reliable Analytics metrics.</p>
-<p>This Setting overrides the dialog-level settings for containment type. The default option would be the dialog-level settings. <a href="../../../automation/use-cases/dialogs/node-types/working-with-the-entity-node/#instance-properties">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>This Setting overrides the dialog-level settings for containment type. The default option would be the dialog-level settings. <a href="../../../automation/use-cases/dialogs/node-types/working-with-the-entity-node/#instance-properties">Learn more:octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11131-may-17-2025">v11.13.1 May 17, 2025<a class="headerlink" href="#v11131-may-17-2025" title="Permanent link">¶</a></h2>
@@ -20894,7 +20894,7 @@
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Salesforce MIAW Integration for Agent Transfer</strong></p>
 <p>AI for Service now includes a new Salesforce agent transfer integration: Messaging for In-App and Web (MIAW). This is in addition to the current Salesforce Live Chat. While existing users can still use Live Chat with their current settings, MIAW will be the default for new integrations. MIAW offers a personalized, asynchronous, and persistent messaging experience. As Salesforce is retiring Live Chat on February 14, 2026, transitioning to MIAW is highly recommended for ongoing support and access to the newest features.
-<a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../app-settings/integrations/agents/configuring-the-salesforce-agent/">Learn more:octicons-arrow-right-24:</a></p>
 <p><font size="4">Security Vulnerability Fixes</font></p>
 <p>As part of the recent upgrade, the XO Platform addresses potential security vulnerabilities that may affect Natural Language Processing (NLP) in apps you configure for the <strong>Dutch</strong> language.</p>
 <p>In rare cases, the app may not correctly recognize certain user utterances, which can reduce response accuracy.</p>
@@ -20928,21 +20928,21 @@
 <li>Deliver more relevant and contextually appropriate responses to end users.</li>
 <li>Configurable confidence thresholds aligned with their specific use case needs.</li>
 </ul>
-<p><a href="../../../generative-ai-tools/genai-features-automationai/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../generative-ai-tools/genai-features-automationai/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Pre-built and Custom Models Support for Rephrase User Query</strong> </p>
 <p>The Rephrase User Query feature now supports both Pre-built and Custom Models, in addition to Kore.ai XO GPT. To use these models, users must create a custom prompt.</p>
 <p>Users can optionally provide the <code>Conversation_history</code> key to specify the number of previous conversation messages to send to the LLM for improved contextual understanding.
-<a href="../../../generative-ai-tools/genai-features-automationai/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../generative-ai-tools/genai-features-automationai/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Expanded PII Settings at the Agent Node Level</strong></p>
 <p>PII detection and protection are now available at the Agent Node level. Users can select whether to send redacted values to the language model for enhanced privacy control. The data is redacted based on the patterns defined in the global PII settings.
-<a href="../../../generative-ai-tools/data-anonymization/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../generative-ai-tools/data-anonymization/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Conversation Testing</font></p>
 <p><strong>Support for Tags and Descriptions of Test Suite</strong></p>
-<p>Conversation Testing now supports including tags and descriptions in the JSON file for test cases, enabling faster creation and easier reuse of test cases to improve usability and accelerate test case management. <a href="../../../automation/testing/regression-testing/conversation-testing/create-a-test-suite/#create-test-suite">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Conversation Testing now supports including tags and descriptions in the JSON file for test cases, enabling faster creation and easier reuse of test cases to improve usability and accelerate test case management. <a href="../../../automation/testing/regression-testing/conversation-testing/create-a-test-suite/#create-test-suite">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Failed ServiceNow Agent Transfer Notification</strong></p>
 <p>The platform now displays a default, non-editable message to users when a ServiceNow agent transfer fails due to agent unavailability, improving user clarity and reducing the need for repeated transfer attempts.
-<a href="../../../app-settings/integrations/agents/servicenow/configuring-the-servicenow-agent-utah-and-vancouver/#failed-agent-transfer-notification">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../app-settings/integrations/agents/servicenow/configuring-the-servicenow-agent-utah-and-vancouver/#failed-agent-transfer-notification">Learn more:octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11121-april-19-2025">v11.12.1 April 19, 2025<a class="headerlink" href="#v11121-april-19-2025" title="Permanent link">¶</a></h2>
@@ -20951,7 +20951,7 @@
 <p><font size="4">DialogGPT</font></p>
 <p><strong>Amazon Bedrock Support for DialogGPT</strong></p>
 <p>DialogGPT now supports Amazon Bedrock models, providing large enterprises with a flexible and versatile solution for efficient conversation management. This enhancement allows users to experiment with and utilize various models through a single integration, using custom prompts to optimize their experience.</p>
-<p><a href="../../../generative-ai-tools/dgpt-conversation-orchestration/#model-configurations">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../generative-ai-tools/dgpt-conversation-orchestration/#model-configurations">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11120-april-05-2025">v11.12.0 April 05, 2025<a class="headerlink" href="#v11120-april-05-2025" title="Permanent link">¶</a></h2>
@@ -20965,7 +20965,7 @@
 <li>Choice between "Orchestrated Autonomy" or "Full Autonomy" based automation capabilities.</li>
 <li>Agentic Apps provide full support for any of the digital and voice channels enabled via the XO Platform. </li>
 </ul>
-<p><a href="../../../flows/node-types/automation/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../flows/node-types/automation/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Simplified Integration to Support for Real-time Voice Interactions</strong></p>
 <p>The platform's new integration framework simplifies the enablement of real-time voice interactions using multi-modal language models, enabling low-latency, contextual, and real-time voice interaction experiences for your customers.</p>
 <p>Key features</p>
@@ -20977,7 +20977,7 @@
 <p>Dedicated orchestrator to define the voice experiences and controls. </p>
 </li>
 </ul>
-<p><a href="../../../flows/node-types/automation/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../flows/node-types/automation/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">DialogGPT</font></p>
 <p><strong>Support for Dynamic Routing Capability Powered by DialogGPT</strong></p>
 <p>The Platform now supports Dynamic Routing capability powered by DialogGPT. This capability allows teams to independently develop and manage automation apps for their various functions and then link them to a common app. More importantly, it enables businesses to provide a single, unified interface to the end users instead of a separate interface for each function. </p>
@@ -20991,12 +20991,12 @@
 <li>Automated Event Handling: Default platform-provided event handlers are triggered based on the fulfillment type, ensuring smooth user interactions and dialog execution.</li>
 <li>Clarifying Questions for Ambiguous Intents: When ambiguous intents are detected, clarifying questions are triggered for disambiguation</li>
 <li>Simplified Training: There is no need for training utterances or invocation phrases for bot qualification. However, providing complete dialog descriptions is required for more accurate intent identification.<br>
-<a href="../../../automation/dynamic-routing/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></li>
+<a href="../../../automation/dynamic-routing/">Learn more :octicons-arrow-right-24:</a></li>
 </ul>
 <p><strong>Introducing XO GPT - DialogGPT Model</strong></p>
-<p>XO GPT is a powerful DialogGPT model hosted by Kore.ai, exclusively fine-tuned for handling complex conversations. It enhances contextual understanding and response coherence, generating fluent and contextually relevant answers. This results in smoother conversational flow, increased user engagement, greater control over data, and faster response times.  <a href="../../../generative-ai-tools/xo-gpt-module/#features-supported-by-the-module">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>XO GPT is a powerful DialogGPT model hosted by Kore.ai, exclusively fine-tuned for handling complex conversations. It enhances contextual understanding and response coherence, generating fluent and contextually relevant answers. This results in smoother conversational flow, increased user engagement, greater control over data, and faster response times.  <a href="../../../generative-ai-tools/xo-gpt-module/#features-supported-by-the-module">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Updates to Multi-Intent Orchestration</strong></p>
-<p>Users can now customize the predefined Multi-Intent fulfillment dialog for greater control and flexibility when the Conversation Orchestrator detects multiple intents in a user’s utterance.  <a href="../../../generative-ai-tools/dgpt-conversation-orchestration/#intent-events">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Users can now customize the predefined Multi-Intent fulfillment dialog for greater control and flexibility when the Conversation Orchestrator detects multiple intents in a user’s utterance.  <a href="../../../generative-ai-tools/dgpt-conversation-orchestration/#intent-events">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Node Enhancement</font></p>
 <p><strong>Enhanced Agent Node with V2 Prompt and Tool Calling</strong></p>
 <p>In this update, Agent Node introduces a new version to fully take advantage of the Tool Calling capability of advanced AI Models. The new version (v2) orchestrates the Agent Node using the Tool Calling construct to collect entities, instruct business rules, and perform user-defined custom actions.</p>
@@ -21021,15 +21021,15 @@
 </ul>
 </li>
 </ul>
-<p><a href="../../../automation/agent-node/prompt-setup/#types-of-prompts">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/agent-node/prompt-setup/#types-of-prompts">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">NLP</font></p>
 <p><strong>Suppressing "Intent Not Found" Event When Dialog Ends as "Fulfilled"</strong></p>
 <p>The platform incorrectly used to trigger "Intent Not Found" events after successfully completed dialogs, specifically when dialogs ended with Entity or Confirmation nodes, followed by Script or Service nodes.
 A new Advanced NLP Configuration key (Suppress_Fallback_On_TaskFulfilment) has been added that prevents unwanted events when the "End of Task" event is disabled and the Dialog has ended with a "fulfilled" status. This ensures smooth conversation flows for BotKit implementations, handles dialog completion, and prevents disruptions in multi-assistant routing scenarios. 
-<a href="../../../automation/natural-language/nlu-configurations/engine-tuning/#suppress_fallback_on_taskfulfilment">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../automation/natural-language/nlu-configurations/engine-tuning/#suppress_fallback_on_taskfulfilment">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Channels</font></p>
 <p><strong>WhatsApp Native Integration using Meta’s Cloud API</strong></p>
-<p>The XO Platform now offers native integration with WhatsApp Business via Meta's Cloud API. This integration eliminates the need for third-party Business Solution Providers (BSPs) and enables businesses to access WhatsApp features directly through their Kore.ai account.  <a href="../../../channels/add-whatsapp-business-channel/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The XO Platform now offers native integration with WhatsApp Business via Meta's Cloud API. This integration eliminates the need for third-party Business Solution Providers (BSPs) and enables businesses to access WhatsApp features directly through their Kore.ai account.  <a href="../../../channels/add-whatsapp-business-channel/">Learn more :octicons-arrow-right-24:</a></p>
 <p>Key features</p>
 <ul>
 <li>Seamless management of templates, catalogs, conversational flows, and payments.</li>
@@ -21038,7 +21038,7 @@ A new Advanced NLP Configuration key (Suppress_Fallback_On_TaskFulfilment) has b
 </ul>
 <p><font size="4">API</font></p>
 <p><strong>Call ID Support in getSessions API</strong></p>
-<p>The getSessions API has been updated to accept callId as an optional query parameter. When provided with a valid callId, the API returns the corresponding session details, matching the functionality already available in the Conversation History API. <a href="../../../apis/automation/get-sessions-history/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The getSessions API has been updated to accept callId as an optional query parameter. When provided with a valid callId, the API returns the corresponding session details, matching the functionality already available in the Conversation History API. <a href="../../../apis/automation/get-sessions-history/">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11111-march-15-2025">v11.11.1 March 15, 2025<a class="headerlink" href="#v11111-march-15-2025" title="Permanent link">¶</a></h2>
@@ -21060,11 +21060,11 @@ A new Advanced NLP Configuration key (Suppress_Fallback_On_TaskFulfilment) has b
 <li>Supports transitions to both orphan nodes and sub-dialogs.</li>
 <li>Ensures full backward compatibility with existing tool configurations.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/agent-node-configuration/" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/agent-node-configuration/" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Service Now Agent Transfer Status</strong></p>
 <p>The XO platform now records the status of the agent transfer for ServiceNow in both Debug Logs and Analytics. This information helps to analyze whether the agent transfer is successful or not. Thus, it facilitates improved tracking and troubleshooting of transfer-related issues.</p>
-<p><a href="../../../app-settings/integrations/agents/servicenow/configuring-the-servicenow-agent-utah-and-vancouver/#agent-transfer-status" target="_blank">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../app-settings/integrations/agents/servicenow/configuring-the-servicenow-agent-utah-and-vancouver/#agent-transfer-status" target="_blank">Learn more:octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v11100-february-12-2025">v11.10.0 February 12, 2025<a class="headerlink" href="#v11100-february-12-2025" title="Permanent link">¶</a></h2>
@@ -21073,11 +21073,11 @@ A new Advanced NLP Configuration key (Suppress_Fallback_On_TaskFulfilment) has b
 <p><font size="4">Analytics</font></p>
 <p><strong>Analytics for DialogGPT</strong></p>
 <p>DialogGPT's comprehensive analytics provide detailed tracking of user interactions, intent detection, and conversation outcomes, ensuring data-driven insights for continuous improvement. By leveraging analytics, the platform users can accurately evaluate DialogGPT's effectiveness and enhance conversational experiences.
-<a href="../../../analytics/automation/nlp-insights/#dialoggpt-nlp-insights-analysis">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../analytics/automation/nlp-insights/#dialoggpt-nlp-insights-analysis">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Export/Import</font></p>
 <p>**Redesigned Export Interface for Improved User Experience</p>
 <p>The Import / Export interface has been redesigned to mirror the Publish layout. A new top-level "Flows" section and reorganized "Automation Tasks" improve component organization. The update maintains backward compatibility and provides clearer section names and descriptions for an intuitive, cohesive experience.
-<a href="../../../deploy/bot-management/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../deploy/bot-management/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">General Availability of Key Features</font></p>
 <p>We are announcing the general availability (GA) of the following important features to all our users: </p>
 <ul>
@@ -21099,7 +21099,7 @@ A new Advanced NLP Configuration key (Suppress_Fallback_On_TaskFulfilment) has b
 <li>Scripts execution order in a defined flow: Node Pre-processor → Prompt Pre-processor → Prompt Execution → Prompt Post-processor → Node Post-processor.</li>
 <li>Support for app functions in addition to content, context, and environment variables in the node level pre and post-processor scripts.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/agent-node-configuration/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/agent-node-configuration/">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1190-january-05-2025">v11.9.0 January 05, 2025<a class="headerlink" href="#v1190-january-05-2025" title="Permanent link">¶</a></h2>
@@ -21122,7 +21122,7 @@ A new Advanced NLP Configuration key (Suppress_Fallback_On_TaskFulfilment) has b
 <li>Flexibility with custom/system integrations and prompts.</li>
 <li>Seamless orchestration between user input, functions, and responses.  </li>
 </ul>
-<p><a href="../../../automation/agent-node/working-with-agent-node/#tools">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/agent-node/working-with-agent-node/#tools">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>GenAI Node and Prompt Node Renaming</strong>
 The GenAI Node has been renamed the Agent Node to reflect its agentic experiences and tool-calling capabilities, while the GenAI Prompt Node has been renamed the Prompt Node.</p>
 <p><font size="4">DialogGPT</font></p>
@@ -21135,10 +21135,10 @@ DialogGPT has been integrated into the app lifecycle to centralize configuration
 <li>Full and partial app export/import support.</li>
 <li>Version control and comparison features.</li>
 </ul>
-<p><a href="../../../deploy/bot-management/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../deploy/bot-management/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>OpenAI GPT-4o mini Support for DialogGPT</strong>
 The Platform now supports OpenAI GPT-4o mini models in DialogGPT for efficient conversation management. These models are compact and optimized variants of the GPT-4 family, designed to deliver high efficiency in resource-constrained environments while maintaining advanced capabilities.</p>
-<p><a href="../../../generative-ai-tools/dgpt-conversation-orchestration/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../generative-ai-tools/dgpt-conversation-orchestration/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Dialog Builder</font> </p>
 <p><strong>Enhanced Sticky Notes for Intuitive Note-Taking Experience</strong> 
 The redesigned notes feature works like familiar sticky notes, making it easier and more intuitive to capture and organize your thoughts.</p>
@@ -21149,7 +21149,7 @@ The redesigned notes feature works like familiar sticky notes, making it easier 
 <li>Customizable background colors.</li>
 <li>Default yellow styling with instant edit mode.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#bookmarks-and-notes">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#bookmarks-and-notes">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Upgraded Bookmarks for Better Visual Organization</strong>
 The enhanced bookmarks feature improves organization and collaboration capabilities.</p>
 <p>Key updates</p>
@@ -21157,7 +21157,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Customizable background colors.</li>
 <li>Improved loading experience with visual feedback.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#bookmarks-and-notes">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#bookmarks-and-notes">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1181-december-19-2024">v11.8.1 December 19, 2024<a class="headerlink" href="#v1181-december-19-2024" title="Permanent link">¶</a></h2>
@@ -21193,7 +21193,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Phase 2 (future release): Introduces advanced features such as Universal Bot support, granular intent identification, custom entity extraction, and new XO GPT models.</li>
 <li>Phase 3 (future release): Includes extended capabilities like multilingual support and implementation of guardrails.  </li>
 </ul>
-<p><a href="../../../generative-ai-tools/dialog-gpt/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../generative-ai-tools/dialog-gpt/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Dialog Builder</font>  </p>
 <p><strong>Property Panel Enhancements for List of Items Configuration</strong></p>
 <p>The property panel has been updated with a redesigned interface for configuring "List of Items" properties, including both enumerated and lookup types. </p>
@@ -21202,7 +21202,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Intuitive Layout: The new design organizes properties logically, making it easier to locate and modify settings. The streamlined interface reduces clutter and enhances usability.</li>
 <li>Enhanced Sliders: The configuring "List of Items" sliders have been revamped to provide a more user-friendly experience. Users can now adjust settings more efficiently within the improved interface.  </li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/entity-types/#list-of-items-enumerated">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/entity-types/#list-of-items-enumerated">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Rich Text Formatting for Prompts</strong></p>
 <p>A new rich text editor has been added to all prompt areas in the platform, including User Prompts, Bot Responses, and Error Prompts. The editor allows platform users to easily format text using a convenient markup toolbar, enhancing readability and improving the user experience for content creators and end users. Double-click or select any text in the detailed prompt editor to invoke the toolbar.</p>
 <p>Key Capabilities</p>
@@ -21213,7 +21213,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Media: Insertion of links and images (with URL and alt text)</li>
 </ul>
 <p>Formatted text is rendered properly across all supported channels, and the feature maintains backward compatibility with existing prompts.</p>
-<p><a href="../../../automation/use-cases/dialogs/prompt-editor/#configure-the-user-prompt">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/prompt-editor/#configure-the-user-prompt">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Knowledge AI</font> </p>
 <p><strong>Get FAQs API Enhancement</strong></p>
 <p>The <strong>Get FAQs API</strong> has been enhanced to support two sets of parameters, providing more flexible retrieval options while ensuring backward compatibility:</p>
@@ -21221,7 +21221,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Existing Parameters (backward compatible): ktId and parentId (node ID)</li>
 <li>New Parameters (alternative option): botId, language, mode (configured/published), and nodeName.  </li>
 </ul>
-<p><a href="../../../apis/automation/get-faqs-from-knowledge-task-V2/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../apis/automation/get-faqs-from-knowledge-task-V2/">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1171-november-18-2024">v11.7.1 November 18, 2024<a class="headerlink" href="#v1171-november-18-2024" title="Permanent link">¶</a></h2>
@@ -21240,12 +21240,12 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Script Editor: Create, edit, and manage preprocessor scripts with built-in syntax highlighting and error checking.</li>
 <li>Testing Controls: Execute scripts before initiating test recording and validation, with the ability to modify and re-validate on the fly.</li>
 <li>Data Management: Control session context by modifying data, simulating external systems, and tracking changes through secure execution.<br>
-<a href="../../../automation/testing/regression-testing/conversation-testing/create-a-test-suite/#pre-processor-script">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></li>
+<a href="../../../automation/testing/regression-testing/conversation-testing/create-a-test-suite/#pre-processor-script">Learn more :octicons-arrow-right-24:</a></li>
 </ul>
 <p><font size="4">Dialog Builder</font></p>
 <p><strong>Auto Save Option in JavaScript Editor</strong></p>
 <p>The JavaScript editor in Dialog Builder now allows users to enable auto save to automatically save changes while writing the code. Users can enable auto-save with a single click, and the changes will automatically be saved after one second of inactivity. They can view the last saved timestamp and use this feature across all Dialog Builder script editors.
-<a href="../../../automation/use-cases/dialogs/prompt-editor/#javascript-prompts-or-responses">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../automation/use-cases/dialogs/prompt-editor/#javascript-prompts-or-responses">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1161-october-21-2024">v11.6.1 October 21, 2024<a class="headerlink" href="#v1161-october-21-2024" title="Permanent link">¶</a></h2>
@@ -21270,7 +21270,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <ul>
 <li>The enhancement is fully compatible with existing FAQs and answers to ensure a smooth user transition.</li>
 </ul>
-<p><a href="../../../automation/knowledge-ai/manage-faqs/#faq-conditional-responses" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/knowledge-ai/manage-faqs/#faq-conditional-responses" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1160-september-28-2024">v11.6.0 September 28, 2024<a class="headerlink" href="#v1160-september-28-2024" title="Permanent link">¶</a></h2>
@@ -21293,7 +21293,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Reduced risk of accidental sensitive data exposure</li>
 <li>Flexible configuration to balance usability and privacy.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#component-properties">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#component-properties">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1151-september-14-2024">v11.5.1 September 14, 2024<a class="headerlink" href="#v1151-september-14-2024" title="Permanent link">¶</a></h2>
@@ -21308,7 +21308,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Ability to transition to a specific node upon encountering an error.</li>
 <li>Detailed error information is available in the service node response object.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#instance-properties" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#instance-properties" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1150-september-01-2024">v11.5.0 September 01, 2024<a class="headerlink" href="#v1150-september-01-2024" title="Permanent link">¶</a></h2>
@@ -21343,7 +21343,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Customization: Enables defining meta filters and search rules.</li>
 <li>Seamless integration: Incorporates advanced search directly into conversation flows.  </li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-searchai-node/" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-searchai-node/" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Real-time Collaboration in Dialog Builder</strong> </p>
 <p>This update transforms the Dialog Builder into a collaborative workspace, allowing multiple users to view, discuss, and seamlessly transition between editing roles. </p>
 <p>Key updates:</p>
@@ -21365,7 +21365,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <p>Collaborative viewing: The first user to open the app is automatically granted editing rights, while subsequent users join as viewers. This ensures clear control over who can make changes, reducing the potential for conflicts or errors.  </p>
 </li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#collaboration-tool" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#collaboration-tool" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Redesigned Property Panel for Dialog Builder Nodes</strong></p>
 <p>The redesigned property panel for Dialog Builder nodes was introduced in the previous release. It provides a fluid experience with better organization of the elements, easier discoverability of the options, and a new theme. The remaining second-level UI elements have also been updated to match the new theme.</p>
 <p><font size="4">Dialogs</font></p>
@@ -21380,7 +21380,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Matches from the beginning of field names.</li>
 <li>Real-time results update.  </li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/managing-dialogs/#dialog-components" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/managing-dialogs/#dialog-components" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Digital Forms</font></p>
 <p><strong>Field Validations using Post Processor Script</strong></p>
 <p>The platform now supports custom field validations in Digital Forms using a post-processor script. It allows platform users to create complex, custom validation rules using JavaScript, improving data collection accuracy and user experience.</p>
@@ -21411,7 +21411,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <ul>
 <li>Existing forms treat the post-processor as an empty script.</li>
 </ul>
-<p><a href="../../../automation/use-cases/digital-skills/digital-forms/#component-properties" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/digital-skills/digital-forms/#component-properties" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1141-august-11-2024">v11.4.1 August 11, 2024<a class="headerlink" href="#v1141-august-11-2024" title="Permanent link">¶</a></h2>
@@ -21442,7 +21442,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Service Node: The usage of the transient entity in the service node request is in plain text in the response.</li>
 <li>Debug Logs (Analytics): When a transient entity is printed as part of debugger statements, the data is in redacted form in the Debug Logs (Analytics) and is not purged.</li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-entity-node/#configure-the-node" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-entity-node/#configure-the-node" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Dialog Builder</font></p>
 <p><strong>Real-time Collaboration in Dialog Builder</strong></p>
 <p>The platform now enables real-time collaboration in the dialog builder. It allows team members to work together seamlessly, enhancing efficiency and productivity in dialog development.</p>
@@ -21462,7 +21462,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Streamlined dialog development process.</li>
 </ul>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/collaboration-tool.png" data-desc-position="bottom"><img src="../images/collaboration-tool.png" alt="collaboration-tool" title="collaboration-tool" style="border: 1px solid gray; zoom:100%;"></a></p>
-<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#collaboration-tool" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#collaboration-tool" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Redesigned Property Panel for Dialog Builder Nodes</strong></p>
 <p>The redesigned property panel for Dialog Builder nodes provides a fluid experience with better organization of the elements, easier discoverability of the options, and a new theme.</p>
 <p>Key updates:</p>
@@ -21492,7 +21492,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <li>Provides greater control over input formats.</li>
 <li>Enables precise data validation for complex scenarios.</li>
 </ul>
-<p><a href="../../../automation/use-cases/digital-skills/digital-forms/#component-properties" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/digital-skills/digital-forms/#component-properties" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Agent Transfer</font></p>
 <p><strong>Enhanced Agent Chat History Link</strong></p>
 <p>The platform has improved the functionality of chat history links provided to agents during conversation transfers. The access limit for these links has been increased from 5 to 10 times, allowing supervisors to better audit them. Additionally, the links now display the specific conversation that prompted the transfer, providing more relevant context to agents.</p>
@@ -21500,7 +21500,7 @@ The enhanced bookmarks feature improves organization and collaboration capabilit
 <ul>
 <li>The existing agent transfer chat history links remain unchanged. These changes apply only to the links generated after this release.</li>
 </ul>
-<p><a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#user-bot-chat-transcript-link-to-live-agents" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#user-bot-chat-transcript-link-to-live-agents" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v114-july-27-2024">v11.4 July 27, 2024<a class="headerlink" href="#v114-july-27-2024" title="Permanent link">¶</a></h2>
@@ -21518,7 +21518,7 @@ The timeout settings for the Service Node have been moved from Component Propert
 <ul>
 <li>Existing service nodes retain their current timeout behavior while the timeout settings are moved to the Instance Properties. </li>
 </ul>
-<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#instance-properties" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/use-cases/dialogs/node-types/working-with-the-service-node/#instance-properties" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Enhanced Debug Logs</strong>
 The platform now groups debug logs by user utterance and bot response in a chat-like structure to improve clarity and efficiency in tracing conversation flow for platform users.</p>
 <p>Key updates:</p>
@@ -21553,7 +21553,7 @@ The platform now groups debug logs by user utterance and bot response in a chat-
 Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced Settings &gt; Conversation History Length.</p>
 </li>
 </ul>
-<p><a href="../../../automation/intelligence/context-object/" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/intelligence/context-object/" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1131-july-13-2024">v11.3.1 July 13, 2024<a class="headerlink" href="#v1131-july-13-2024" title="Permanent link">¶</a></h2>
@@ -21573,23 +21573,23 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 <p><strong>Preset</strong>: Select a maximum wait time between 1 and 60 seconds to receive input.</p>
 </li>
 <li>
-<p><strong>Environment Variable</strong>: Select any environment variable from a drop-down list or use a search bar to find a specific variable. <a href="../../../automation/use-cases/dialogs/node-types/voice-call-properties/#dialog-node-settings" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><strong>Environment Variable</strong>: Select any environment variable from a drop-down list or use a search bar to find a specific variable. <a href="../../../automation/use-cases/dialogs/node-types/voice-call-properties/#dialog-node-settings" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 </li>
 </ul>
 <p><font size="4">NLU</font></p>
 <p><strong>Ability to Import ML Utterances from One Language to Another (without Translation)</strong></p>
-<p>The platform now supports copying utterances between languages within the same app. This feature simplifies importing and synchronizing utterance data across multiple languages. <a href="../../../automation/natural-language/training/machine-learning-engine/#how-to-export-or-import-ml-utterances" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The platform now supports copying utterances between languages within the same app. This feature simplifies importing and synchronizing utterance data across multiple languages. <a href="../../../automation/natural-language/training/machine-learning-engine/#how-to-export-or-import-ml-utterances" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p>The ability to automatically translate the copied utterances in the target language will be available soon. </p>
 <p><strong>Improvements to Zip Code Entities</strong></p>
-<p>The  Zip Code entity has been enhanced to identify wild cards like “ “ and “-”. For example, “1 2 3 45” is identified as “12345”. <a href="../../../automation/use-cases/dialogs/entity-types/#zip-code" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The  Zip Code entity has been enhanced to identify wild cards like “ “ and “-”. For example, “1 2 3 45” is identified as “12345”. <a href="../../../automation/use-cases/dialogs/entity-types/#zip-code" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Digital Forms</font> </p>
 <p><strong>Option to Clear Default Date During Design Time</strong></p>
 <p>Date fields on digital forms now have a clear ('x') icon, which allows users to easily remove the default date value.</p>
 <p><font size="4">Agent Transfer</font> </p>
 <p><strong>Attachment Sharing Between Users and Live Agents</strong></p>
-<p>Users can now send files to agents during conversations. This improves communication and helps solve issues faster. This feature is currently available only for ServiceNow agent integration. <a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#attachment-sharing-with-live-agent" target="_blank">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a>.</p>
+<p>Users can now send files to agents during conversations. This improves communication and helps solve issues faster. This feature is currently available only for ServiceNow agent integration. <a href="../../../app-settings/integrations/agents/agent-transfer-integrations/#attachment-sharing-with-live-agent" target="_blank">Learn more:octicons-arrow-right-24:</a>.</p>
 <p><font size="4">Capability to Handle Agent Fallback Errors</font></p>
-<p>The platform has introduced a new "Agent Transfer fallback response" to improve user experience during agent transfers. Instead of leaving the conversation idle, the platform can now inform users with an appropriate response that can be configured in the app definition. This feature allows for clearer communication and better handling of technical issues during agent transfers. <a href="../../../automation/intelligence/conversation-management/standard-responses/#errors-warnings" target="_blank">Learn more<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a>.</p>
+<p>The platform has introduced a new "Agent Transfer fallback response" to improve user experience during agent transfers. Instead of leaving the conversation idle, the platform can now inform users with an appropriate response that can be configured in the app definition. This feature allows for clearer communication and better handling of technical issues during agent transfers. <a href="../../../automation/intelligence/conversation-management/standard-responses/#errors-warnings" target="_blank">Learn more:octicons-arrow-right-24:</a>.</p>
 <hr>
 
 <h2 id="v1121-june-15-2024">v11.2.1 June 15, 2024<a class="headerlink" href="#v1121-june-15-2024" title="Permanent link">¶</a></h2>
@@ -21616,12 +21616,12 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 </li>
 </ol>
 <p>The koreUtil library has been extended with the "getFormDefinition" function to retrieve and modify the form definition.</p>
-<p>This feature also helps address the current limitation of system messages available only in English. The "formMsgMeta" section of the form data contains the full list of system messages and errors, which can be modified using the Preprocessor. <a href="../../../automation/use-cases/digital-skills/digital-forms/#configuration-setup-using-pre-processor-script" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>This feature also helps address the current limitation of system messages available only in English. The "formMsgMeta" section of the form data contains the full list of system messages and errors, which can be modified using the Preprocessor. <a href="../../../automation/use-cases/digital-skills/digital-forms/#configuration-setup-using-pre-processor-script" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">SDK Configuration</font></p>
 <p><strong>Customize Virtual Assistant’s Theme &amp; Design</strong></p>
-<p>The platform now supports customizing the Virtual Assistant's look and feel with the new Theme and Design feature. This includes changes to welcome text, buttons, colors, chat windows, and sound themes to match their needs. A real-time preview pane shows changes instantly and makes it easy to make any adjustments before deploying the updated design. <a href="../../../channels/add-web-mobile-client/#ai-agent-theme-design" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The platform now supports customizing the Virtual Assistant's look and feel with the new Theme and Design feature. This includes changes to welcome text, buttons, colors, chat windows, and sound themes to match their needs. A real-time preview pane shows changes instantly and makes it easy to make any adjustments before deploying the updated design. <a href="../../../channels/add-web-mobile-client/#ai-agent-theme-design" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Enhanced Panels &amp; Widgets</strong></p>
-<p>The platform now supports the Panels and Widgets feature according to the selected Theme and Design of the Web SDK. <a href="../../../automation/use-cases/digital-skills/digital-views/" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The platform now supports the Panels and Widgets feature according to the selected Theme and Design of the Web SDK. <a href="../../../automation/use-cases/digital-skills/digital-views/" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <hr>
 
 <h2 id="v1111-may-11-2024">v11.1.1 May 11, 2024<a class="headerlink" href="#v1111-may-11-2024" title="Permanent link">¶</a></h2>
@@ -21634,15 +21634,15 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 <p>Key features and enhancements included in this release are summarized below.</p>
 <p><font size="4">Dialog Builder</font></p>
 <p><strong>Enhancement to the Comments Functionality</strong></p>
-<p>The Comments feature now includes comment and thread actions, user mentions and notifications, timestamps, and filtering options. These enhancements make Comments a powerful tool for collaboration. <a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#notes-comments-and-bookmarks" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>The Comments feature now includes comment and thread actions, user mentions and notifications, timestamps, and filtering options. These enhancements make Comments a powerful tool for collaboration. <a href="../../../automation/use-cases/dialogs/using-the-dialog-builder-tool/#notes-comments-and-bookmarks" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">Digital Forms</font></p>
 <ul>
-<li>Enable the "Off-the-Record Information" Flag for Digital Forms: On a digital form, when the field’s “Off the record” flag is enabled, the field data is cleared at the end of the user session and not stored in databases or logs. <a href="../../../automation/use-cases/digital-skills/digital-forms/#component-properties" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></li>
+<li>Enable the "Off-the-Record Information" Flag for Digital Forms: On a digital form, when the field’s “Off the record” flag is enabled, the field data is cleared at the end of the user session and not stored in databases or logs. <a href="../../../automation/use-cases/digital-skills/digital-forms/#component-properties" target="_blank">Learn more :octicons-arrow-right-24:</a></li>
 <li>Digital Forms Date Picker Supports Japanese: The digital form’s Date Picker now supports the Japanese language if the bot language is Japanese.</li>
 </ul>
 <p><font size="4">Export/Import</font></p>
 <p><strong>Enable App Import Functionality using Zip File Upload</strong></p>
-<p>Platform users can now import apps by uploading a ZIP file containing the app's data. This eliminates the need to extract and manually import JSON files. The ZIP file import works for both new and existing apps. <a href="../../../administration/bot-management/" target="_blank">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p>Platform users can now import apps by uploading a ZIP file containing the app's data. This eliminates the need to extract and manually import JSON files. The ZIP file import works for both new and existing apps. <a href="../../../administration/bot-management/" target="_blank">Learn more :octicons-arrow-right-24:</a></p>
 <p>The corresponding APIs have also been updated to support this change: Import New VA and Import Existing VA.</p>
 <hr>
 
@@ -21671,7 +21671,7 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 <li>Lower Costs: It removes the need to manually train the agent with diverse utterances,  reducing the overall effort in building and maintaining virtual agents; it automatically resolves more requests, minimizing transfers to human representatives and lowering operational expenses.</li>
 <li>Improved Customer Experience: assistants provide more natural conversations by understanding context and handling multiple requests simultaneously.</li>
 </ul>
-<p><a href="../../../generative-ai-tools/dialog-gpt/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../generative-ai-tools/dialog-gpt/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Enhanced Agent Node with V2 Prompt and Tool Calling</strong></p>
 <p>Agent Node (previously GenAI Node) has been enhanced to take full advantage of the Tool Calling capability of advanced AI Models. The latest version (v2) orchestrates the Agent Node using the Tool Calling construct to collect entities, instruct business rules, and perform user-defined custom actions.</p>
 <p>Key enhancements</p>
@@ -21689,7 +21689,7 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 </ul>
 </li>
 </ul>
-<p><a href="../../../automation/agent-node/prompt-setup/#types-of-prompts">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/agent-node/prompt-setup/#types-of-prompts">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Build Agentic Experience with DialogGPT and Agent Node</strong></p>
 <p>Tool Calling enables the new Agent Node to interact with your business applications. Users can define tools, connect multiple actions, and incorporate external data into the conversation context. DialogGPT manages conversation orchestration, while Agent Node with Tool Calling creates more natural interactions. Users can combine these features to deliver seamless agentic experiences for your customers and employees.</p>
 <p>Key features </p>
@@ -21698,7 +21698,7 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 <li>Direct connection between tools and actions (scripts, service, or Search AI).</li>
 <li>Prompts include tool definitions and context for decision-making.</li>
 </ul>
-<p><a href="../../../automation/agent-node/working-with-agent-node/#tools">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/agent-node/working-with-agent-node/#tools">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Seamless Integration with Agentic Apps for Multi-agent Orchestration</strong></p>
 <p>The fully autonomous Agentic Apps, powered by the Kore.ai Agent Platform, can now easily integrate with the Platform. The Agent Platform-powered automation independently handles entire conversation flows, adapting to situations without predefined paths. This flow leverages Agentic Apps to dynamically understand, plan, and execute actions based on user queries without relying on defined workflows. It intelligently manages context, retrieves relevant information, and orchestrates multi-step tasks to deliver accurate and personalized responses.</p>
 <p>Key features</p>
@@ -21706,7 +21706,7 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 <li>Choice between "Orchestrated Autonomy" (powered by DialogGPT) or "Full Autonomy" (Powered by the Agent Platform) based on automation capabilities.</li>
 <li>Agentic Apps fully supports any digital and voice channels enabled via the Platform.</li>
 </ul>
-<p><a href="../../../flows/node-types/automation/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../flows/node-types/automation/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Support for Dynamic Routing Capability Powered by DialogGPT</strong></p>
 <p>The Platform now supports Dynamic Routing capability powered by DialogGPT. This capability allows teams to develop and manage automation apps for various functions independently and then link them to a standard app. More importantly, it enables businesses to provide a single, unified interface to the end users instead of a separate interface for each function.</p>
 <p>The orchestration is powered by DialogGPT, which provides context-aware, intelligent, and dynamic routing.</p>
@@ -21720,15 +21720,15 @@ Generative AI &gt; Dynamic Conversation &gt; Rephrase User Query &gt; Advanced S
 <li>Clarifying Questions for Ambiguous Intents: When ambiguous intents are detected, clarifying questions are triggered for disambiguation</li>
 <li>Simplified Training: There is no need for training utterances or invocation phrases for bot qualification. However, providing complete dialog descriptions is required for more accurate intent identification.</li>
 </ul>
-<p><a href="../../../automation/dynamic-routing/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<p><a href="../../../automation/dynamic-routing/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">LLM and Generative AI Framework</font></p>
 <p><strong>Guardrails</strong></p>
 <p>Large language models (LLMs) are powerful AI systems that can be leveraged to offer human-like conversational experiences. The Platform offers a wide range of features to leverage the power of LLMs. LLMs are usually pre-trained with a vast corpus of public data sources, and the content is not fully reviewed and curated for correctness and acceptability for enterprise needs. This results in generating harmful, biased, or inappropriate content at times. The Platform's Guardrail framework mitigates these risks by validating LLM requests and responses to enforce safety and appropriateness standards.</p>
 <p>Guardrails enable responsible and ethical AI practices by allowing developers to easily enable/disable rules and configure settings for different features using LLMs. Additionally, platform users can design and implement fallback behaviors for a feature, such as triggering specific events, if a guardrail detects content that violates set standards.<br>
-<a href="../../../generative-ai-tools/guardrails/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../generative-ai-tools/guardrails/">Learn more :octicons-arrow-right-24:</a></p>
 <p><strong>Monitoring</strong></p>
 <p>It offers comprehensive insights into utilizing Large Language Models (LLMs) and Generative AI features. The framework collects, analyzes, and presents comprehensive data on user interactions, request-response dynamics, and payload details. It enables platform users to track and compare usage across various LLM features and refine prompts and settings to boost performance and user experience.<br>
-<a href="../../../analytics/genai-analytics/llm-usage-logs/">Learn more <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></a></p>
+<a href="../../../analytics/genai-analytics/llm-usage-logs/">Learn more :octicons-arrow-right-24:</a></p>
 <p><font size="4">All-new Dialog Builder</font></p>
 <p>The all-new dialog builder is super intuitive, user-friendly, and visually appealing.</p>
 <p><strong>Intuitive Graphical User Interface</strong></p>
