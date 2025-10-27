@@ -2041,9 +2041,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-is-amazon-q-different-from-kores-rag-search-solution" class="md-nav__link">
+  <a href="#how-is-amazon-q-different-from-rag-search-solution" class="md-nav__link">
     <span class="md-ellipsis">
-      How is Amazon Q different from Kore’s RAG Search Solution
+      How is Amazon Q different from RAG Search Solution
     </span>
   </a>
   
@@ -2748,16 +2748,127 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../security/sso/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9_1">
+        
+          
+          <label class="md-nav__link" for="__nav_7_9_1" id="__nav_7_9_1_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     SSO
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            SSO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/sso-overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/oidc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OIDC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/saml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SAML
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/wsfc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WSFC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -3155,9 +3266,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-is-amazon-q-different-from-kores-rag-search-solution" class="md-nav__link">
+  <a href="#how-is-amazon-q-different-from-rag-search-solution" class="md-nav__link">
     <span class="md-ellipsis">
-      How is Amazon Q different from Kore’s RAG Search Solution
+      How is Amazon Q different from RAG Search Solution
     </span>
   </a>
   
@@ -3314,18 +3425,18 @@
 
 
 <h1 id="amazon-q-integration-with-ai-for-work">Amazon Q Integration with AI for Work<a class="headerlink" href="#amazon-q-integration-with-ai-for-work" title="Permanent link">¶</a></h1>
-<p>In addition to Kore’s Search and Data AI solution, AI for Work provides the ability to connect with external search indexes such as Amazon Q. This integration allows customers to leverage connectors configured in their Q Index application on top of the ones available in Kore.</p>
+<p>In addition to Search and Data AI solution, AI for Work provides the ability to connect with external search indexes such as Amazon Q. This integration allows customers to leverage connectors configured in their Q Index application on top of the ones available.</p>
 <h3 id="key-benefits">Key Benefits<a class="headerlink" href="#key-benefits" title="Permanent link">¶</a></h3>
 <ul>
 <li>Data Sovereignty: Maintain data indexing within the AWS cloud using Amazon Q, eliminating the need for partner cloud storage.</li>
-<li>Unified, Context-aware search: Retrieve insights and documents from 90+ enterprise connectors (<a href="https://docs.kore.ai/xo/searchai/content-sources/connectors/connector-directory/">Kore Connectors</a> + <a href="https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/connectors-list.html">Amazon Q Connectors</a>), including AWS and non-AWS systems.</li>
+<li>Unified, Context-aware search: Retrieve insights and documents from 90+ enterprise connectors (<a href="https://docs.kore.ai/xo/searchai/content-sources/connectors/connector-directory/">Connectors</a> + <a href="https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/connectors-list.html">Amazon Q Connectors</a>), including AWS and non-AWS systems.</li>
 <li>Agentic actions, not just Search: Automate workflows—schedule meetings, update records, generate presentations—all with your search context.</li>
-<li>Flexible routing: AI-driven query routing uses intent recognition to send requests to the right retriever (Kore or Q Index).</li>
+<li>Flexible routing: AI-driven query routing uses intent recognition to send requests to the right retriever.</li>
 <li>Security and Permissions: E2E data encryption both at rest and transit, cross-account connectivity with granular access control.</li>
 <li>Simplified user authentication : Amazon Q index provides a <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/using-apps-with-trusted-token-issuer.html">Trusted Token Issuer</a> (TTI) mechanism to issue their own security tokens. Users just need to login once from Kore.ai to get answers from Q index, without the need for authenticating a second time.</li>
 </ul>
-<h2 id="how-is-amazon-q-different-from-kores-rag-search-solution">How is Amazon Q different from Kore’s RAG Search Solution<a class="headerlink" href="#how-is-amazon-q-different-from-kores-rag-search-solution" title="Permanent link">¶</a></h2>
-<p>Kore’s <a href="https://kore.ai/agent-platform/search-data-ai/">Search and Data AI</a> Solution comes with <a href="https://docs.kore.ai/xo/searchai/content-sources/connectors/connector-directory/">70+ connectors</a> and the flexibility to build custom ones, giving enterprises deep control over how data is ingested, extracted, and configured. This allows users to experiment, fine-tune, and choose the indexing and retrieval methods that best fit their unique business needs.</p>
+<h2 id="how-is-amazon-q-different-from-rag-search-solution">How is Amazon Q different from RAG Search Solution<a class="headerlink" href="#how-is-amazon-q-different-from-rag-search-solution" title="Permanent link">¶</a></h2>
+<p><a href="https://kore.ai/agent-platform/search-data-ai/">Search and Data AI</a> Solution comes with <a href="https://docs.kore.ai/xo/searchai/content-sources/connectors/connector-directory/">70+ connectors</a> and the flexibility to build custom ones, giving enterprises deep control over how data is ingested, extracted, and configured. This allows users to experiment, fine-tune, and choose the indexing and retrieval methods that best fit their unique business needs.</p>
 <p>Amazon Q, on the other hand, provides <a href="https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/connectors-list.html">40+ connectors</a> with a strong focus on simplicity and accuracy. It delivers a managed, standardized indexing and retrieval experience designed to meet enterprise-grade accuracy benchmarks without requiring extensive customization.</p>
 <h2 id="augmenting-search-in-ai-for-work-with-amazon-q-index">Augmenting search in AI for Work with Amazon Q index<a class="headerlink" href="#augmenting-search-in-ai-for-work-with-amazon-q-index" title="Permanent link">¶</a></h2>
 <p>Amazon Q can be integrated with AI for Work through two configuration approaches, each suited to different needs and data architectures.</p>
@@ -3736,8 +3847,6 @@ Complete the following fields with information from your AWS setup:<ul>
     
     
       <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       

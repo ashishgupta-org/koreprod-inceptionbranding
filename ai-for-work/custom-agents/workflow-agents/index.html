@@ -2670,16 +2670,127 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../security/sso/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9_1">
+        
+          
+          <label class="md-nav__link" for="__nav_7_9_1" id="__nav_7_9_1_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     SSO
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            SSO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/sso-overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/oidc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OIDC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/saml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SAML
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/wsfc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WSFC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -3248,7 +3359,6 @@ steps outlined below:</p>
     back to the specified endpoint.</p>
 </li>
 </ol>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="images/config_workflow_Flow.png" data-desc-position="bottom"><img alt="" src="images/config_workflow_Flow.png"></a></p>
 </li>
 <li>
 <p>For Async Mode, enter the <strong>POST URL</strong> and <strong>Access
@@ -3263,7 +3373,7 @@ steps outlined below:</p>
 <li>
 <p>On the <strong>Agents</strong> tab, click the name of the agent that you want to
     integrate and then click <strong>Agent endpoint</strong> in the left
-    navigation.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/agent_endpoint.png" data-desc-position="bottom"><img alt="" src="../images/agent_endpoint.png"></a></p>
+    navigation.</p>
 </li>
 <li>
 <p>Select the <strong>Async push</strong> to enable asynchronous response handling and
@@ -3272,8 +3382,7 @@ steps outlined below:</p>
 </li>
 <li>
 <p>Next, paste the copied <strong>POST URL</strong> and <strong>Access Token</strong> into the
-    appropriate fields on the <strong>Sync/Async mode setup</strong> page.<br>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/access_token.png" data-desc-position="bottom"><img alt="" src="../images/access_token.png"></a></p>
+    appropriate fields on the <strong>Sync/Async mode setup</strong> page.  </p>
 </li>
 <li>
 <p>Click <strong>Save</strong> to save the configuration.</p>
@@ -3282,12 +3391,11 @@ steps outlined below:</p>
 </li>
 <li>
 <p>Next, on the <strong>Define API</strong> page, click on the <strong>CURL Import</strong>
-    option.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/curl_import.png" data-desc-position="bottom"><img alt="" src="../images/curl_import.png"></a></p>
+    option.</p>
 </li>
 <li>
 <p>The <strong>Import URL</strong> dialog is displayed.
-    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/import_url_input.png" data-desc-position="bottom"><img alt="" src="../images/import_url_input.png"></a>To get the curl, follow the
-    steps outlined below:</p>
+    To get the curl, follow the steps outlined below:</p>
 <ol>
 <li>
 <p>Navigate to the Workflow Platform. Open the agent you want to add the
@@ -3296,25 +3404,24 @@ steps outlined below:</p>
 <li>
 <p>On the <strong>Agents</strong> tab, click the name of the agent that you want to
     integrate and then click <strong>Agent endpoint</strong> in the left
-    navigation.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/agent_endpoint.png" data-desc-position="bottom"><img alt="" src="../images/agent_endpoint.png"></a></p>
+    navigation.</p>
 </li>
 <li>
 <p>Copy the appropriate cURL to use in the platform to complete the
     integration. Use the sync cURL for sync mode and the async cURL for asyn
-    mode.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/curl.png" data-desc-position="bottom"><img alt="" src="../images/curl.png"></a></p>
+    mode.</p>
 </li>
 </ol>
 </li>
 <li>
 <p>In the <strong>Import URL,</strong>  paste the <strong>cURL</strong>  that you have fetched from the
-    Workflow Agent.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/import_url.png" data-desc-position="bottom"><img alt="" src="../images/import_url.png"></a></p>
+    Workflow Agent.</p>
 </li>
 <li>
 <p>Click <strong>Import</strong> to add the cURL</p>
 </li>
 <li>
-<p>Click <strong>Run</strong> to fetch the API details.<br>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/fetch-workflow.png" data-desc-position="bottom"><img alt="" src="../images/fetch-workflow.png"></a></p>
+<p>Click <strong>Run</strong> to fetch the API details.  </p>
 </li>
 <li>
 <p>After fetching the API details, enter the API key value. To get the API key:</p>
@@ -3325,7 +3432,7 @@ steps outlined below:</p>
 </li>
 <li>
 <p>In the left navigation, click <strong>API Keys</strong>, then select <strong>Create new
-    key</strong>.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/API-Key.png" data-desc-position="bottom"><img alt="" src="../images/API-Key.png"></a></p>
+    key</strong>.</p>
 </li>
 <li>
 <p>In the popup window, click on the <strong>Generate Key</strong> button. Once the API
@@ -3335,7 +3442,7 @@ steps outlined below:</p>
 </li>
 <li>
 <p>In the API key value field, paste the key that you have copied from the Workflow
-    Agent and click <strong>Continue</strong>.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/generate-key.png" data-desc-position="bottom"><img alt="" src="../images/generate-key.png"></a></p>
+    Agent and click <strong>Continue</strong>.</p>
 </li>
 <li>
 <p>The API response output displays all the keys received in the response.
@@ -3388,7 +3495,6 @@ variables that control data flow and context throughout the agent's execution.</
 accessible throughout the flow and will be automatically displayed in “AI for
 Work”. This makes it easy to view and manage the data exchange between the agent
 and the connected platform.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/input_output.png" data-desc-position="bottom"><img alt="" src="../images/input_output.png"></a></p>
 <h2 id="user-interaction-with-sync-and-async-flows">User Interaction with Sync and Async Flows<a class="headerlink" href="#user-interaction-with-sync-and-async-flows" title="Permanent link">¶</a></h2>
 <p>The end-user experience varies between sync and async flows in the Workflow Agent,
 offering flexibility in response times and delivery methods.</p>
@@ -3399,14 +3505,12 @@ scenarios requiring quick responses, as the system processes the request and
 displays the output directly within the current session. This mode is ideal for
 cases where the file processing can be completed within a short timeframe (up to
 60 seconds), allowing users to quickly retrieve answers.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/sync_mode.png" data-desc-position="bottom"><img alt="" src="../images/sync_mode.png"></a></p>
 <p>In <strong>async mode</strong>, the process accommodates more complex queries that may
 require additional processing time. Users still select an agent and enter their
 queries. However, instead of receiving immediate results, they are
 notified in a notification section once the query is processed. This approach
 makes async mode particularly suited to cases where the query might take more
 than 60 seconds to execute.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/async_mode.png" data-desc-position="bottom"><img alt="" src="../images/async_mode.png"></a></p>
 
 
 
@@ -3579,8 +3683,6 @@ than 60 seconds to execute.</p>
     
     
       <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       

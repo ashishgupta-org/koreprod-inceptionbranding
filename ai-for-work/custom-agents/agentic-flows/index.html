@@ -2718,16 +2718,127 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../security/sso/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9_1">
+        
+          
+          <label class="md-nav__link" for="__nav_7_9_1" id="__nav_7_9_1_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     SSO
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            SSO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/sso-overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/oidc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OIDC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/saml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SAML
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/wsfc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WSFC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -3355,13 +3466,10 @@ you can add additional queries by clicking the <strong>+ Add Query</strong> butt
 <h3 id="flow-execution-and-results">Flow Execution and Results<a class="headerlink" href="#flow-execution-and-results" title="Permanent link">¶</a></h3>
 <h4 id="step-1-market-analysis-overview">Step 1: Market Analysis Overview<a class="headerlink" href="#step-1-market-analysis-overview" title="Permanent link">¶</a></h4>
 <p>The initial step employs the RAG (Retrieval Augmented Generation) agent to conduct a comprehensive analysis of NVIDIA's market performance. The agent processes indexed files to evaluate current market indicators and historical performance patterns.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Agentic_App_12.png" data-desc-position="bottom"><img src="../images/Agentic_App_12.png" alt="Market Analysis" title="Market Analysis" style="border: 1px solid gray; zoom:70%;"></a></p>
 <h4 id="step-2-company-share-owners">Step 2: Company Share Owners<a class="headerlink" href="#step-2-company-share-owners" title="Permanent link">¶</a></h4>
 <p>During the second step, the system uses the API agent to retrieve detailed ownership information from the client database. This procedure produces a comprehensive overview of existing shareholders, which includes institutional investors, individual stakeholders, and client portfolio allocations.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Agentic_App_13.png" data-desc-position="bottom"><img src="../images/Agentic_App_13.png" alt="Company Share Owners" title="Company Share Owners" style="border: 1px solid gray; zoom:70%;"></a></p>
 <h4 id="step-3-client-information-and-risk-factor">Step 3: Client Information and Risk Factor<a class="headerlink" href="#step-3-client-information-and-risk-factor" title="Permanent link">¶</a></h4>
 <p>The third step activates the Prompt agent to perform a thorough risk evaluation and develop strategic recommendations. Based on the consolidated data from previous steps, the agent formulates hold or sell recommendations.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Agentic_App_14.png" data-desc-position="bottom"><img src="../images/Agentic_App_14.png" alt="Client Information and Risk Factor" title="Client Information and Risk Factor" style="border: 1px solid gray; zoom:70%;"></a></p>
 <h4 id="step-4-compose-an-email">Step 4: Compose an Email<a class="headerlink" href="#step-4-compose-an-email" title="Permanent link">¶</a></h4>
 <p>The final step automatically generates a professional email that synthesizes all analyses and recommendations from the previous flows.</p>
 <p><strong>Email Format</strong>:</p>
@@ -3370,7 +3478,6 @@ you can add additional queries by clicking the <strong>+ Add Query</strong> butt
 <li>Data visualizations and tables where applicable.</li>
 <li>Formal closing with contact details.</li>
 </ul>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Agentic_App_15.png" data-desc-position="bottom"><img src="../images/Agentic_App_15.png" alt="Email Format" title="Email Format" style="border: 1px solid gray; zoom:70%;"></a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The email can be edited and customized before sending to ensure it meets specific communication requirements and organizational standard.</p>
@@ -3547,8 +3654,6 @@ you can add additional queries by clicking the <strong>+ Add Query</strong> butt
     
     
       <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       

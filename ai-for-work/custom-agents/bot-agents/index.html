@@ -2667,16 +2667,127 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../security/sso/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9_1">
+        
+          
+          <label class="md-nav__link" for="__nav_7_9_1" id="__nav_7_9_1_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     SSO
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            SSO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/sso-overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/oidc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OIDC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/saml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SAML
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/wsfc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WSFC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -3152,9 +3263,9 @@
 
 
 <h1 id="bot-agents">Bot Agents<a class="headerlink" href="#bot-agents" title="Permanent link">¶</a></h1>
-<p>Administrators can create bot agents for users using the bot agent builder, significantly improving overall efficiency. Workflows designed on the XO Platform can be seamlessly integrated, allowing actions to be executed directly when a workflow is triggered and eliminating the need for other platforms.</p>
-<p>For complex workflows involving multiple system integrations and logic, users can build bots using the XO Platform. These bots can be triggered through conversations using the UI or NLP intent, streamlining the entire process.</p>
-<p>For example, consider a Fund Transfer Bot Agent. By creating this bot on the XO Platform, you can automate fund transfers to clients' designated accounts, capturing key details such as client names, account information, and transfer amounts. Once integrated with your organization’s systems, the bot allows seamless conversational interactions, simplifying fund transfer operations.</p>
+<p>Administrators can create bot agents for users using the bot agent builder, significantly improving overall efficiency. Workflows designed on the AI for Service Platform can be seamlessly integrated, allowing actions to be executed directly when a workflow is triggered and eliminating the need for other platforms.</p>
+<p>For complex workflows involving multiple system integrations and logic, users can build bots using the AI for Service Platform. These bots can be triggered through conversations using the UI or NLP intent, streamlining the entire process.</p>
+<p>For example, consider a Fund Transfer Bot Agent. By creating this bot on the AI for Service Platform, you can automate fund transfers to clients' designated accounts, capturing key details such as client names, account information, and transfer amounts. Once integrated with your organization’s systems, the bot allows seamless conversational interactions, simplifying fund transfer operations.</p>
 <p>You can create a new agent or import an existing one.</p>
 <ul>
 <li>
@@ -3182,7 +3293,7 @@
 </ol>
 <h3 id="create-a-new-bot-agent">Create a New Bot Agent<a class="headerlink" href="#create-a-new-bot-agent" title="Permanent link">¶</a></h3>
 <p>You can create a new Bot agent to assist users in completing various tasks by
-utilizing the Bot created using the XO Platform. <a href="https://docs.kore.ai/xo/getting-started/building-a-virtual-assistant/">Learn
+utilizing the Bot created using the AI for Service Platform. <a href="https://docs.kore.ai/xo/getting-started/building-a-virtual-assistant/">Learn
 more.</a></p>
 <p>To create a new Bot Agent, follow these steps:</p>
 <ol>
@@ -3196,16 +3307,16 @@ more.</a></p>
     Agent.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/create-agent.png" data-desc-position="bottom"><img alt="" src="../images/create-agent.png"></a></strong></p>
 </li>
 <li>
-<p>You must link your Bot built on the XO Platform with <strong>AI for Work</strong> and
+<p>You must link your Bot built on the AI for Service Platform with <strong>AI for Work</strong> and
     create a webhook channel. <a href="https://docs.kore.ai/xo/channels/add-webhook-channel/?h=webhook">Learn
     more</a>.</p>
 <p>To create a webhook channel on the Bot and
 complete the integration process, follow these steps:</p>
 <ol>
 <li>
-<p>Log in to the <strong>XO Platform</strong>. Open the virtual assistant or bot you
+<p>Log in to the <strong>AI for Service Platform</strong>. Open the virtual assistant or bot you
     want to add the channels to. Navigate to <strong>Deploy &gt; Channels</strong>&gt; <strong>Add
-    More&gt;Webhook</strong>. The Webhook dialog will
+    More</strong>&gt; <strong>Webhook</strong>. The Webhook dialog will
     appear.<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/webhook.png" data-desc-position="bottom"><img alt="" src="../images/webhook.png"></a></p>
 </li>
 <li>
@@ -3305,7 +3416,7 @@ status update.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul>
-<li>See <a href="../alert-task/">Alert</a> that allows developers to integrate conversation hold and resume functionality within XO Bots.</li>
+<li>See <a href="../alert-task/">Alert</a> that allows developers to integrate conversation hold and resume functionality within AI for Service Bots.</li>
 <li>See <a href="../notify-api/">Notify</a> that allows developers to send interactive notifications to the users.</li>
 </ul>
 </div>
@@ -3481,8 +3592,6 @@ status update.</p>
     
     
       <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
