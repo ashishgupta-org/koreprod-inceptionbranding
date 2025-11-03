@@ -768,6 +768,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#file-storage-and-data-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Storage and Data Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#agentic-flow-example" class="md-nav__link">
     <span class="md-ellipsis">
       Agentic Flow Example
@@ -3093,6 +3102,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#file-storage-and-data-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Storage and Data Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#agentic-flow-example" class="md-nav__link">
     <span class="md-ellipsis">
       Agentic Flow Example
@@ -3124,7 +3142,21 @@
 <p>The <strong>AI for Work</strong> Assistant is available on the homepage, you can ask an open-ended question to the assistant.</p>
 <p>For instance, if you're connected to Jira, you can type “Get my Jira issues” in the <strong>Ask or search anything</strong> search box. The Jira agent will be triggered and retrieve your Jira issues.</p>
 <p><strong>AI for Work</strong> can also manage complex workflows by organizing tasks into a structured sequence, each handled by a specialized “agent.” In this approach, each agent performs a unique function and automatically executes its task in the correct order. By passing information seamlessly from one agent to the next, the flow ensures efficient, sequential completion of each step, allowing multiple instructions to be handled with minimal manual effort. This streamlined solution is known as <strong>Agentic Flow</strong>.</p>
-<h3 id="agentic-flow-example">Agentic Flow Example<a class="headerlink" href="#agentic-flow-example" title="Permanent link">¶</a></h3>
+<h2 id="file-storage-and-data-handling">File Storage and Data Handling<a class="headerlink" href="#file-storage-and-data-handling" title="Permanent link">¶</a></h2>
+<p>When users upload files during chat sessions with AI for Work, it's important to understand how these files are stored and managed.</p>
+<p><strong>File Storage Location</strong></p>
+<p>Files uploaded through the AI for Work Assistant chat interface are stored in managed cloud storage (AWS S3) under a multi-tenant architecture. This applies to:</p>
+<ul>
+<li>All file uploads in AI for Work chat sessions.</li>
+<li>Documents processed through Search AI functionality.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Files uploaded during chat sessions are stored in the platform's cloud infrastructure.  </p>
+</div>
+<p><strong>Data Security</strong></p>
+<p>All files stored in the platform's managed storage infrastructure are protected with industry-standard encryption measures to ensure data confidentiality and integrity.</p>
+<h2 id="agentic-flow-example">Agentic Flow Example<a class="headerlink" href="#agentic-flow-example" title="Permanent link">¶</a></h2>
 <p><strong>Ask Assistant:</strong> “Get my Jira issues. Let me know John Doe’s availability for a meeting tomorrow. Send the Jira issues to John Doe.”</p>
 <p><strong>Agents Involved</strong>:</p>
 <ol>
