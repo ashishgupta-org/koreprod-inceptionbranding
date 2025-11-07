@@ -7,24 +7,28 @@
         <meta name="author" content="Kore ai Content Experience Team">
       
       
-        <link rel="canonical" href="https://docs.kore.ai/agent-platform/models/open-source-models/structured-output-example/">
+        <link rel="canonical" href="https://docs.kore.ai/agent-platform/ai-agents/agentic-apps/howto/initiate-live-agent-handoff/">
       
       
+        <link rel="prev" href="../pass-uploaded-documents-to-external-systems/">
       
       
-      <link rel="icon" href="../../../images/Kore_logo_new.svg">
+        <link rel="next" href="../use-metadata/">
+      
+      
+      <link rel="icon" href="../../../../images/Kore_logo_new.svg">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.10">
     
     
       
-        <title>Structured Output Example - Kore ai Docs</title>
+        <title>Initiate Live Agent Handoff from Agentic Apps - Kore ai Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -43,9 +47,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra_kore.css">
+      <link rel="stylesheet" href="../../../../stylesheets/extra_kore.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -62,7 +66,7 @@
     
     
     
-  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -91,7 +95,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#structured-output-example" class="md-skip">
+        <a href="#initiate-a-live-agent-handoff-from-agentic-apps" class="md-skip">
           Skip to content
         </a>
       
@@ -200,7 +204,7 @@
 
     <!-- Link to home -->
     <!-- <a
-      href="../../.."
+      href="../../../.."
       title="Kore ai Docs"
       class="md-header__button md-logo"
       aria-label="Kore ai Docs"
@@ -228,7 +232,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Structured Output Example
+              Initiate Live Agent Handoff from Agentic Apps
             
           </span>
         </div>
@@ -414,7 +418,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../home/" class="md-tabs__link">
+      <a href="../../../../home/" class="md-tabs__link">
         
   
     
@@ -433,7 +437,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../getting-started/introduction/" class="md-tabs__link">
+        <a href="../../../../getting-started/introduction/" class="md-tabs__link">
           
   
   Getting Started
@@ -447,11 +451,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../ai-agents/multi-agent-system/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../multi-agent-system/" class="md-tabs__link">
           
   
   AI Agents
@@ -469,7 +475,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../core-ai/overview/" class="md-tabs__link">
+        <a href="../../../../core-ai/overview/" class="md-tabs__link">
           
   
   Core AI Capabilities
@@ -487,7 +493,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../administration/overview/" class="md-tabs__link">
+        <a href="../../../../administration/overview/" class="md-tabs__link">
           
   
   Administration
@@ -504,14 +510,8 @@
   
     
     
-      
-  
-  
-  
-    
-    
       <li class="md-tabs__item">
-        <a href="../../../apis/agentic-apps/overview/" class="md-tabs__link">
+        <a href="../../../../apis/agentic-apps/overview/" class="md-tabs__link">
           
   
   APIs
@@ -521,6 +521,21 @@
     
   
 
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../apis/agentic-apps/overview/" class="md-tabs__link">
+          
+  
+  APIs
+
+        </a>
+      </li>
     
   
 
@@ -530,7 +545,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../ai-agents/agentic-apps/marketplace/" class="md-tabs__link">
+      <a href="../../marketplace/" class="md-tabs__link">
         
   
     
@@ -564,7 +579,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Kore ai Docs" class="md-nav__button md-logo" aria-label="Kore ai Docs" data-md-component="logo">
+    <a href="../../../.." title="Kore ai Docs" class="md-nav__button md-logo" aria-label="Kore ai Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
@@ -594,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../home/" class="md-nav__link">
+      <a href="../../../../home/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -654,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/introduction/" class="md-nav__link">
+      <a href="../../../../getting-started/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -675,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/sign-up-sign-in/" class="md-nav__link">
+      <a href="../../../../getting-started/sign-up-sign-in/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -696,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/agentic-app-setup-guide/" class="md-nav__link">
+      <a href="../../agentic-app-setup-guide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -797,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/agent-platform/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/agent-platform/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -818,7 +833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/create-agentic-app/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/create-agentic-app/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -839,7 +854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/workflow-tool/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/workflow-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -860,7 +875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/model-studio/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/model-studio/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -881,7 +896,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/prompt-studio/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/prompt-studio/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -902,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/evaluation/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/evaluation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -923,7 +938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../getting-started/tutorials/build-code-tool/" class="md-nav__link">
+      <a href="../../../../getting-started/tutorials/build-code-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1000,7 +1015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../release-notes/recent-updates/" class="md-nav__link">
+      <a href="../../../../release-notes/recent-updates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1144,25 +1159,30 @@
       
   
   
+    
   
   
+  
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1173,7 +1193,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             AI Agents
@@ -1187,7 +1207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/multi-agent-system/" class="md-nav__link">
+      <a href="../../../multi-agent-system/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1208,7 +1228,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/overview/" class="md-nav__link">
+      <a href="../../overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1229,7 +1249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/overview/" class="md-nav__link">
+      <a href="../../../overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1250,7 +1270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../dialog-agents/overview/" class="md-nav__link">
+      <a href="../../../../dialog-agents/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1276,17 +1296,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5">
         
           
-          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1311,7 +1334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/supervisor/" class="md-nav__link">
+      <a href="../../../supervisor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1332,7 +1355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/adaptive-network/" class="md-nav__link">
+      <a href="../../../adaptive-network/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1353,7 +1376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../dialog-agents/dialoggpt/" class="md-nav__link">
+      <a href="../../../../dialog-agents/dialoggpt/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1374,7 +1397,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/realtime-multimodal/" class="md-nav__link">
+      <a href="../../../realtime-multimodal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1408,17 +1431,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6">
         
           
-          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1443,7 +1469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/create-app/" class="md-nav__link">
+      <a href="../../create-app/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1464,7 +1490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/create-agent/" class="md-nav__link">
+      <a href="../../../create-agent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1485,7 +1511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/external-agents/" class="md-nav__link">
+      <a href="../../../external-agents/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1506,7 +1532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/memory-stores/" class="md-nav__link">
+      <a href="../../memory-stores/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1540,17 +1566,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7">
         
           
-          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1575,7 +1604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/knowledge/overview/" class="md-nav__link">
+      <a href="../../../knowledge/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1596,7 +1625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/knowledge/about-knowledge/" class="md-nav__link">
+      <a href="../../../knowledge/about-knowledge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1617,7 +1646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/knowledge/manage-knowledge-tools/" class="md-nav__link">
+      <a href="../../../knowledge/manage-knowledge-tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1651,17 +1680,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8">
         
           
-          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1686,7 +1718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/overview/" class="md-nav__link">
+      <a href="../../../tools/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1747,7 +1779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/workflow-tools/" class="md-nav__link">
+      <a href="../../../tools/workflow-tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1768,7 +1800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/create-a-new-tool/" class="md-nav__link">
+      <a href="../../../tools/create-a-new-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1789,7 +1821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-templates/" class="md-nav__link">
+      <a href="../../../tools/tool-templates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1810,7 +1842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/import-a-tool/" class="md-nav__link">
+      <a href="../../../tools/import-a-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1871,7 +1903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/flows-overview/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/flows-overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1892,7 +1924,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/tool-calling/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/tool-calling/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1953,7 +1985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/manage-flow-nodes/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/manage-flow-nodes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1974,7 +2006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/perform-other-actions-on-the-flow-builder/manage-input-and-output/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/perform-other-actions-on-the-flow-builder/manage-input-and-output/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1995,7 +2027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/perform-other-actions-on-the-flow-builder/run-the-flow/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/perform-other-actions-on-the-flow-builder/run-the-flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2016,7 +2048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/perform-other-actions-on-the-flow-builder/create-a-new-version-of-the-flow/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/perform-other-actions-on-the-flow-builder/create-a-new-version-of-the-flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2125,7 +2157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/ai-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/ai-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2146,7 +2178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/text-to-text-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/text-to-text-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2167,7 +2199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/text-to-image-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/text-to-image-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2188,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/audio-to-text-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/audio-to-text-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2209,7 +2241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/image-to-text-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/image-to-text-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2238,7 +2270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/integration-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/integration-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2259,7 +2291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/api-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/api-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2280,7 +2312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/function-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/function-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2301,7 +2333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/condition-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/condition-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2322,7 +2354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/docsearch-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/docsearch-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2343,7 +2375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/loop-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/loop-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2364,7 +2396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/human-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/human-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2385,7 +2417,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/types-of-nodes/end-node/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/types-of-nodes/end-node/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2414,7 +2446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-flows/tool-canvas-change-log/" class="md-nav__link">
+      <a href="../../../tools/tool-flows/tool-canvas-change-log/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2483,7 +2515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/manage-user-roles-and-permissions/" class="md-nav__link">
+      <a href="../../../tools/manage-user-roles-and-permissions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2552,7 +2584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/deploy-a-tool/" class="md-nav__link">
+      <a href="../../../tools/deploy-a-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2621,7 +2653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-monitor/about-tool-monitor/" class="md-nav__link">
+      <a href="../../../tools/tool-monitor/about-tool-monitor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2642,7 +2674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-monitor/accessing-tool-monitor/" class="md-nav__link">
+      <a href="../../../tools/tool-monitor/accessing-tool-monitor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2663,7 +2695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-monitor/understanding-the-tool-monitor-interface/" class="md-nav__link">
+      <a href="../../../tools/tool-monitor/understanding-the-tool-monitor-interface/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2732,7 +2764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/create-a-new-api-key/" class="md-nav__link">
+      <a href="../../../tools/create-a-new-api-key/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2801,7 +2833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/tool-audit-log/" class="md-nav__link">
+      <a href="../../../tools/tool-audit-log/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2870,11 +2902,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/configure-a-tool/" class="md-nav__link">
+      <a href="../../../tools/configure-a-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Configure a Tool
+    Manage your Tool
   </span>
   
 
@@ -2891,7 +2923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/export-a-tool/" class="md-nav__link">
+      <a href="../../../tools/export-a-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2912,7 +2944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/import-a-tool.md#import-tool-as-a-version" class="md-nav__link">
+      <a href="../../../tools/import-a-tool-as-a-version/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2989,7 +3021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/code-tools/" class="md-nav__link">
+      <a href="../../../tools/code-tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3010,7 +3042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/create-a-code-tool/" class="md-nav__link">
+      <a href="../../../tools/create-a-code-tool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3079,7 +3111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/mcp-tools/" class="md-nav__link">
+      <a href="../../../tools/mcp-tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3100,7 +3132,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/tools/configure-mcp-server/" class="md-nav__link">
+      <a href="../../../tools/configure-mcp-server/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3142,17 +3174,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9">
         
           
-          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -3177,7 +3212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/settings/events/" class="md-nav__link">
+      <a href="../../settings/events/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3198,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/settings/app-configurations/" class="md-nav__link">
+      <a href="../../settings/app-configurations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3219,7 +3254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/settings/guardrails/" class="md-nav__link">
+      <a href="../../settings/guardrails/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3240,7 +3275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/settings/sharing-permissions/" class="md-nav__link">
+      <a href="../../settings/sharing-permissions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3274,17 +3309,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10">
         
           
-          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -3309,7 +3347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/app-testing/" class="md-nav__link">
+      <a href="../../app-testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3343,17 +3381,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11">
         
           
-          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -3378,7 +3419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/analytics-dashboard/" class="md-nav__link">
+      <a href="../../analytics-dashboard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3399,7 +3440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/app-analytics/" class="md-nav__link">
+      <a href="../../app-analytics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3433,17 +3474,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_12">
         
           
-          <label class="md-nav__link" for="__nav_3_12" id="__nav_3_12_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_12" id="__nav_3_12_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -3468,7 +3512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/deployment/app-deployment/" class="md-nav__link">
+      <a href="../../deployment/app-deployment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3489,7 +3533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/deployment/access-deployed-version/" class="md-nav__link">
+      <a href="../../deployment/access-deployed-version/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3550,7 +3594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/import/" class="md-nav__link">
+      <a href="../../import/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3571,7 +3615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/export/" class="md-nav__link">
+      <a href="../../export/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3600,7 +3644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/audit-logs/" class="md-nav__link">
+      <a href="../../audit-logs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3634,17 +3678,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_13">
         
           
-          <label class="md-nav__link" for="__nav_3_13" id="__nav_3_13_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_13" id="__nav_3_13_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -3669,7 +3716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/ai-for-service/" class="md-nav__link">
+      <a href="../../../ai-for-service/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3690,7 +3737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/ai-for-work/" class="md-nav__link">
+      <a href="../../../ai-for-work/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3716,25 +3763,30 @@
                 
   
   
+    
   
   
+  
     
     
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_14">
         
           
-          <label class="md-nav__link" for="__nav_3_14" id="__nav_3_14_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_14" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_14" id="__nav_3_14_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -3745,7 +3797,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_14_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_14_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_14">
             <span class="md-nav__icon md-icon"></span>
             How Tos
@@ -3759,7 +3811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/howto/share-context-with-AIforService/" class="md-nav__link">
+      <a href="../share-context-with-AIforService/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3780,11 +3832,122 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/howto/pass-uploaded-documents-to-external-systems/" class="md-nav__link">
+      <a href="../pass-uploaded-documents-to-external-systems/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Pass Attachments to External Systems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Initiate Live Agent Handoff from Agentic Apps
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Initiate Live Agent Handoff from Agentic Apps
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-live-agent-transfer-in-the-agent-platform-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Live Agent Transfer in the Agent Platform Application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-agent-transfer-requests-in-ai-for-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handling Agent Transfer Requests in AI for Service
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Metadata passed via APIs in Agentic Apps
   </span>
   
 
@@ -3856,7 +4019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core-ai/overview/" class="md-nav__link">
+      <a href="../../../../core-ai/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3917,7 +4080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../overview/" class="md-nav__link">
+      <a href="../../../../models/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4018,7 +4181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/managing-fine-tuned-models/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/managing-fine-tuned-models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4039,7 +4202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/create-a-fine-tuned-model/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/create-a-fine-tuned-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4060,7 +4223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/deploy-a-fine-tuned-model/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/deploy-a-fine-tuned-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4121,7 +4284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/model-settings-overview/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/model-settings-overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4142,7 +4305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/view-the-generated-api-endpoint/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/view-the-generated-api-endpoint/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4163,7 +4326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/generate-an-api-key/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/generate-an-api-key/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4184,7 +4347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/configure-your-fine-tuned-model/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/configure-your-fine-tuned-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4213,7 +4376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fine-tune-models/export-your-fine-tuned-model/" class="md-nav__link">
+      <a href="../../../../models/fine-tune-models/export-your-fine-tuned-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4330,7 +4493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../open-source-summary/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/open-source-summary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4351,7 +4514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../importing-models/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/importing-models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4412,7 +4575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../select-and-deploy-an-open-source-model/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/select-and-deploy-an-open-source-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4433,7 +4596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deploy-an-imported-model-from-hugging-face/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/deploy-an-imported-model-from-hugging-face/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4462,7 +4625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../model-optimization/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/model-optimization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4523,7 +4686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../view-the-generated-api-endpoint/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/view-the-generated-api-endpoint/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4544,7 +4707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../generate-an-api-key-open-source/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/generate-an-api-key-open-source/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4565,7 +4728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../configure-your-open-source-model/" class="md-nav__link">
+      <a href="../../../../models/open-source-models/configure-your-open-source-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4642,7 +4805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../external-models/managing-external-models/" class="md-nav__link">
+      <a href="../../../../models/external-models/managing-external-models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4663,7 +4826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../external-models/add-an-external-model-using-easy-integration/" class="md-nav__link">
+      <a href="../../../../models/external-models/add-an-external-model-using-easy-integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4684,7 +4847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../external-models/add-an-external-model-using-api-integration/" class="md-nav__link">
+      <a href="../../../../models/external-models/add-an-external-model-using-api-integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4721,7 +4884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../supported-models/" class="md-nav__link">
+      <a href="../../../../models/supported-models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4790,7 +4953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../prompts/overview/" class="md-nav__link">
+      <a href="../../../../prompts/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4811,7 +4974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../prompts/accessing-prompt-studio/" class="md-nav__link">
+      <a href="../../../../prompts/accessing-prompt-studio/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4832,7 +4995,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../prompts/using-prompt-studio/" class="md-nav__link">
+      <a href="../../../../prompts/using-prompt-studio/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4853,7 +5016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../prompts/advanced-features/" class="md-nav__link">
+      <a href="../../../../prompts/advanced-features/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4874,7 +5037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../prompts/options-prompt-canvas/" class="md-nav__link">
+      <a href="../../../../prompts/options-prompt-canvas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4943,7 +5106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/overview/" class="md-nav__link">
+      <a href="../../../../evaluation/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5004,7 +5167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/overview/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5025,7 +5188,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/create-project/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/create-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5046,7 +5209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/create-evaluation/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/create-evaluation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5067,7 +5230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/import-dataset/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/import-dataset/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5088,7 +5251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/configure-evaluator/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/configure-evaluator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5109,7 +5272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/run-evaluation/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/run-evaluation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5130,7 +5293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/model-evaluation/view-evaluation-insight/" class="md-nav__link">
+      <a href="../../../../evaluation/model-evaluation/view-evaluation-insight/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5199,7 +5362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/overview/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5220,7 +5383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/create-project/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/create-project/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5241,7 +5404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/create-evaluation/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/create-evaluation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5262,7 +5425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/import-production-data/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/import-production-data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5283,7 +5446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/configure-evaluators/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/configure-evaluators/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5304,7 +5467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/run-evaluation/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/run-evaluation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5325,7 +5488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/view-evaluation-result/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/view-evaluation-result/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5346,7 +5509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluation/agentic-evaluation/analyze-evaluation/" class="md-nav__link">
+      <a href="../../../../evaluation/agentic-evaluation/analyze-evaluation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5423,7 +5586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guardrails/overview/" class="md-nav__link">
+      <a href="../../../../guardrails/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5444,7 +5607,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guardrails/add-a-scanner/" class="md-nav__link">
+      <a href="../../../../guardrails/add-a-scanner/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5465,7 +5628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guardrails/test-guardrail/" class="md-nav__link">
+      <a href="../../../../guardrails/test-guardrail/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5486,7 +5649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guardrails/manage-guardrails/" class="md-nav__link">
+      <a href="../../../../guardrails/manage-guardrails/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5562,7 +5725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../administration/overview/" class="md-nav__link">
+      <a href="../../../../administration/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5583,7 +5746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/workspaces/workspace-mgmt/" class="md-nav__link">
+      <a href="../../../../settings/workspaces/workspace-mgmt/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5644,7 +5807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/user-management/overview/" class="md-nav__link">
+      <a href="../../../../settings/user-management/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5665,7 +5828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/user-management/users/" class="md-nav__link">
+      <a href="../../../../settings/user-management/users/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5686,7 +5849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/user-management/invite-a-user/" class="md-nav__link">
+      <a href="../../../../settings/user-management/invite-a-user/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5707,7 +5870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/user-management/settings/active-directory/" class="md-nav__link">
+      <a href="../../../../settings/user-management/settings/active-directory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5728,7 +5891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/user-management/role-management/" class="md-nav__link">
+      <a href="../../../../settings/user-management/role-management/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5797,7 +5960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/integrations/about-integrations/" class="md-nav__link">
+      <a href="../../../../settings/integrations/about-integrations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5818,7 +5981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/integrations/enable-hugging-face/" class="md-nav__link">
+      <a href="../../../../settings/integrations/enable-hugging-face/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5839,7 +6002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/integrations/integrate-with-s3-bucket/" class="md-nav__link">
+      <a href="../../../../settings/integrations/integrate-with-s3-bucket/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5860,7 +6023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/integrations/integrate-with-wandb/" class="md-nav__link">
+      <a href="../../../../settings/integrations/integrate-with-wandb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5929,7 +6092,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/manage-custom-scripts/custom-scripts/" class="md-nav__link">
+      <a href="../../../../settings/manage-custom-scripts/custom-scripts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5998,7 +6161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/monitoring/overview/" class="md-nav__link">
+      <a href="../../../../settings/monitoring/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6019,7 +6182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/monitoring/audit-logs/" class="md-nav__link">
+      <a href="../../../../settings/monitoring/audit-logs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6080,7 +6243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/monitoring/analytics/tools-analytics-dashboard/" class="md-nav__link">
+      <a href="../../../../settings/monitoring/analytics/tools-analytics-dashboard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6101,7 +6264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/monitoring/analytics/model-analytics-dashboard/" class="md-nav__link">
+      <a href="../../../../settings/monitoring/analytics/model-analytics-dashboard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6122,7 +6285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/monitoring/analytics/model-traces/" class="md-nav__link">
+      <a href="../../../../settings/monitoring/analytics/model-traces/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6151,7 +6314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/monitoring/monitoring-custom-scripts/" class="md-nav__link">
+      <a href="../../../../settings/monitoring/monitoring-custom-scripts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6220,7 +6383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/security-and-control/single-sign-on/" class="md-nav__link">
+      <a href="../../../../settings/security-and-control/single-sign-on/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6241,7 +6404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/security-and-control/authorization-profile/" class="md-nav__link">
+      <a href="../../../../settings/security-and-control/authorization-profile/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6262,7 +6425,28 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/security-and-control/api-scopes/" class="md-nav__link">
+      <a href="../../../../settings/security-and-control/encryption-key-mgmt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Key Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/security-and-control/api-scopes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6331,7 +6515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/billing/billing-and-usage/" class="md-nav__link">
+      <a href="../../../../settings/billing/billing-and-usage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6352,7 +6536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/billing/managing-usage-limits/" class="md-nav__link">
+      <a href="../../../../settings/billing/managing-usage-limits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6421,7 +6605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../settings/data/manage-datasets/" class="md-nav__link">
+      <a href="../../../../settings/data/manage-datasets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6496,6 +6680,34 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../../apis/agentic-apps/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About Agentic App APIs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -6509,24 +6721,24 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
         
           
-          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Agentic Apps
+    APIs
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_1">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            Agentic Apps
+            APIs
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -6537,7 +6749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../apis/agentic-apps/overview/" class="md-nav__link">
+      <a href="../../../../apis/agentic-apps/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6558,76 +6770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../apis/agentic-apps/overview.md#apis-list" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    APIs List
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2">
-        
-          
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Tools
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            Tools
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../apis/overview/" class="md-nav__link">
+      <a href="../../../../apis/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6648,7 +6791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../apis/overview.md#apis-list" class="md-nav__link">
+      <a href="../../../../apis/list-of-apis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6668,14 +6811,6 @@
     </li>
   
 
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
     
       
       
@@ -6684,7 +6819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai-agents/agentic-apps/marketplace/" class="md-nav__link">
+      <a href="../../marketplace/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6719,6 +6854,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-live-agent-transfer-in-the-agent-platform-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Live Agent Transfer in the Agent Platform Application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-agent-transfer-requests-in-ai-for-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handling Agent Transfer Requests in AI for Service
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -6735,36 +6905,31 @@
   
 
 
-<h1 id="structured-output-example">Structured Output Example<a class="headerlink" href="#structured-output-example" title="Permanent link">¶</a></h1>
-<p><strong>Example Scenario: Enterprise Feedback Summarization</strong></p>
-<p>The example below demonstrates how a model can return structured JSON output when a schema is defined using the response_format parameter.</p>
-<p><strong>Example Request:</strong></p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>"response_format": {
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  "required": ["sentiment", "summary", "action_recommended"],
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  "properties": {
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    "sentiment": {
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>      "type": "string",
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>      "enum": ["Positive", "Neutral", "Negative"],
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>      "description": "Overall sentiment of the customer feedback."
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    },
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    "summary": {
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>      "type": "string",
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>      "description": "A concise summary of the feedback content."
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    },
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    "action_recommended": {
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>      "type": "string",
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>      "description": "Suggested next step based on the feedback."
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    }
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>  }
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>}
-</span></code></pre></div>
-<p><strong>Example Response:</strong></p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>{
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  "sentiment": "Negative",
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  "summary": "Customer reported frequent login failures after the latest update.",
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  "action_recommended": "Escalate to Engineering for investigation."
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>}
-</span></code></pre></div>
+<h1 id="initiate-a-live-agent-handoff-from-agentic-apps">Initiate a Live Agent Handoff from Agentic Apps<a class="headerlink" href="#initiate-a-live-agent-handoff-from-agentic-apps" title="Permanent link">¶</a></h1>
+<p>The Agent Handoff Event in Agentic Apps enables smooth transfer of conversations from an AI agent to a live agent when required. This feature is particularly useful in scenarios where user queries require personalized support or the user explicitly asks for assistance.</p>
+<p>Currently, the Agent Handoff event can initiate live agent handoff only via the AI for Service platform. This event-driven handoff is managed through the Automation Node in AI for Service, which facilitates the integration between the two platforms. When the Agent Handoff Event is triggered, the Agent Platform sends required information to the specified automation node within the XO Platform's flows. The automation node subsequently processes the agent transfer request in accordance with the transfer connection rules established for the node.</p>
+<p>This document provides step-by-step instructions for configuring and invoking a live-agent handoff using the Automation Node in the AI for Service app. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Although this document focuses on invoking a live agent via AI for Service, the same configuration can also be used to trigger other conversational agents or workflows via the AI for Service app.</p>
+</div>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">¶</a></h2>
+<ul>
+<li>Both AI for Service and Agent Platform applications must be in the same workspace.</li>
+<li>The relevant channel flows (for example, chat, voice) must be set up in AI for Service.</li>
+<li><a href="../../../ai-for-service/#integrate-an-agentic-app-with-ai-for-service-app">AI for service and Agent Platform must be integrated via the Automation Node</a>.</li>
+</ul>
+<h2 id="setting-up-live-agent-transfer-in-the-agent-platform-application">Setting up Live Agent Transfer in the Agent Platform Application<a class="headerlink" href="#setting-up-live-agent-transfer-in-the-agent-platform-application" title="Permanent link">¶</a></h2>
+<ol>
+<li>Navigate to the Events page. </li>
+<li>Configure the Agent Handoff Event. </li>
+<li>Update the description of the event to describe when this event should be invoked. There is a default description that configures the event to trigger whenever human intervention is required—either when the user explicitly requests it or when the available agents and tools can't fulfill the request. </li>
+<li>Set the status to enabled.</li>
+<li>Configure the parameters to be sent to the Automation Node in AI for Service during handoff. </li>
+</ol>
+<p><a href="../../settings/events/#agent-handoff-event">Find more details here</a>.</p>
+<h2 id="handling-agent-transfer-requests-in-ai-for-service">Handling Agent Transfer Requests in AI for Service<a class="headerlink" href="#handling-agent-transfer-requests-in-ai-for-service" title="Permanent link">¶</a></h2>
+<p>When an agent transfer event is triggered, the Agent Platform passes control and relevant context data to the AI for Service app. To process these agent transfer requests, set up the Agent Transfer connection configuration for the automation node. When the Agent Platform triggers the agent handoff event, the request, along with AI-collected and system-defined parameters, is delegated to the automation node. The automation node then routes the request to the appropriate node as defined by its connection rules. Configure an Agent Transfer Node to transfer the communications from the AI Agent to a live agent.<a href="https://docs.kore.ai/xo/automation/use-cases/dialogs/node-types/working-with-the-agent-transfer-node/"> Learn More.</a></p>
 
 
 
@@ -6871,6 +7036,44 @@
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../pass-uploaded-documents-to-external-systems/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pass Attachments to External Systems">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Pass Attachments to External Systems
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../use-metadata/" class="md-footer__link md-footer__link--next" aria-label="Next: Use Metadata passed via APIs in Agentic Apps">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Use Metadata passed via APIs in Agentic Apps
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -6894,16 +7097,14 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "header.autohide"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.path", "navigation.footer", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "header.autohide"], "search": "../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="../../../extra_js/feedback.js"></script>
+        <script src="../../../../extra_js/feedback.js"></script>
       
     
   
