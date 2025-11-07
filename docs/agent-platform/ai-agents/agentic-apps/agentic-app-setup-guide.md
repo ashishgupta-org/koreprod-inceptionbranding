@@ -38,8 +38,3 @@ If you've already set up AI for Service, your existing and shared workspaces wil
 
 1. **Deploy the App**: App deployment involves transitioning an application version from development to live environments in a structured and repeatable way. This ensures that thoroughly tested, stable versions are available to users in designated environments, such as development, staging, or production. [Learn more](deployment/app-deployment.md){:target="_blank"}.
 2. **Integrate the Deployed App with Your Business Apps or Systems**: The Webclient Script enables seamless embedding of the App into your website. Authentication is managed through API keys, and audit logs track user actions for a secure, branded, and intuitive experience. [Learn more](deployment/access-deployed-version.md){:target="_blank"}.
-
-**Related Links**
-
-* [Integrate AI for Service with Agent Platform](../ai-for-service.md){:target="_blank"}
-* [Integrate AI for Work with Agent Platform](../ai-for-work.md){:target="_blank"}
